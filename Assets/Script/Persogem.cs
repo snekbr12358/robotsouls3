@@ -1,0 +1,238 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using System.Drawing;
+
+public class Persogem : MonoBehaviour
+{
+    public Rigidbody2D Corpo;
+    public float velocidade;
+    public int qtd_pulo = 0;
+    private float meuTempoPulo = 0;
+    public LayerMask groundLayer;
+
+    public float velocidadeBala;
+
+    //Componete SpriteRenderer
+    public SpriteRenderer ImagemPersonagem;
+    //Componet Bala
+    public GameObject Bala;
+    private float meuTempoTiro;
+    private bool pode_atira;
+
+    //Conponet Icon
+    public GameObject idle_icon;
+
+    //vida do personagem
+    public int vida = 50;
+    private float meuTempoDano = 0;
+    public bool pode_pular = true;
+
+    public Animator animator;
+
+    //barra de hp
+    private bool pode_dano = true;
+    public Image barrahp;
+
+   
+
+ 
+    
+
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+       
+        barrahp = GameObject.FindGameObjectWithTag("hp_barra").GetComponent<Image>();
+        animator = GetComponent<Animator>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Mover();
+        Apontar();
+        Pular();
+        Atirar();
+        Dano();
+    }
+    void Mover()
+    {
+        velocidade = Input.GetAxis("Horizontal") * 5;
+        Corpo.velocity = new Vector2(velocidade, Corpo.velocity.y);
+        if (Mathf.Abs(velocidade)> 0)
+        {
+            idle_icon.SetActive(false);
+
+            animator.SetBool("Andar", true);
+        }
+        else
+        {
+            idle_icon.SetActive(true);
+
+            animator.SetBool("Andar", false);
+        } 
+    }
+    void Apontar()
+    {
+        if(velocidade > 0)
+        {
+            ImagemPersonagem.flipX = false;
+        }
+        if(velocidade < 0)
+        {
+            ImagemPersonagem.flipX = true;
+        }
+    }
+    void Pular()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && pode_pular == true)
+        {
+            pode_pular = false;
+            qtd_pulo++;
+            if (qtd_pulo <= 2)
+                AcaoPulo();
+        }
+        if(pode_pular == false)
+        {
+            TemporizadorPulo();
+        }
+    }
+    void AcaoPulo()
+    {
+        //Corpo.velocity = new Vector2(velocidade, 0);
+        Corpo.AddForce(Vector2.up * 400f);
+    }
+
+    void OnTriggerEnter2D(Collider2D gatilho)
+    {
+        if (gatilho.gameObject.tag == "chao")
+        {
+            qtd_pulo = 0;
+            pode_pular = true;
+            meuTempoPulo = 0; 
+
+        }
+    }
+    //Tempo de Pulo
+    void TemporizadorPulo()
+    {
+        meuTempoPulo += Time.deltaTime;
+        if (meuTempoPulo > 0.5)
+        {
+            pode_pular =true;
+            meuTempoPulo = 0;
+        }
+    }
+
+
+    // Gatilhos
+    void OnCollisionEnter2D(Collision2D colisao)
+    {
+        if (colisao.gameObject.tag == "Inimigo")
+        {
+            if (pode_dano == true)
+            {
+                vida--;
+                Perderhp();
+                pode_dano = false;
+                ImagemPersonagem.color = UnityEngine.Color.red;
+                meuTempoDano = 0;
+                //só morro se minha vida for menor ou igual a 0
+                if (vida <= 0)
+                {
+                    Morrer();
+                }
+            }
+        }
+        if(colisao.gameObject.tag == "morte_imediata")
+        {
+            if(pode_dano == true)
+            {
+                pode_dano = false;
+                vida = vida - 3;
+                Perderhp();
+                Morrer();
+            }
+        }
+    }
+    //Atira Balas
+    void Atirar()
+    {
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            idle_icon.SetActive(false);
+            animator.SetTrigger("Ataque");
+           //Instantiate(Bala, this.transform.position, this.transform.rotation);
+            Disparor();
+        }
+    }
+
+    void Disparor()
+    {
+        idle_icon.SetActive(false);
+        Vector3 pontoDisparo = Vector3.zero;
+        if (ImagemPersonagem.flipX)
+        {
+            pontoDisparo = new Vector3(
+                transform.position.x - 1f,
+                transform.position.y,
+                transform.position.z);
+            GameObject BalaDisparada = Instantiate(Bala, pontoDisparo, Quaternion.identity);
+            BalaDisparada.GetComponent<ControleBala>().DirecaoBala(velocidadeBala * -1);
+            Destroy(BalaDisparada, 0.3f);
+        }
+        else {
+            pontoDisparo = new Vector3(
+                transform.position.x + 1f,
+                transform.position.y,
+                transform.position.z);
+            GameObject BalaDisparada = Instantiate(Bala, pontoDisparo, Quaternion.identity);
+            BalaDisparada.GetComponent<ControleBala>().DirecaoBala(velocidadeBala);
+            Destroy(BalaDisparada, 0.3f);
+        }
+        
+    }
+    
+   
+    void Dano()
+    {
+        if (pode_dano == false)
+        {
+            temporizadorDano();
+        }
+    }
+    void temporizadorDano()
+    {
+        meuTempoDano += Time.deltaTime;
+        if (meuTempoDano > 0.25f)
+
+        {
+            pode_dano = true;
+            meuTempoDano = 0;
+            ImagemPersonagem.color = UnityEngine.Color.white;
+
+
+        }
+    }
+    void Perderhp()
+    {
+        barrahp.rectTransform.sizeDelta = new Vector2(vida*105.4269f, 106.72f);
+        // int vida_parabarra = vida * 35;
+        
+    }
+    void Morrer()
+
+    {
+        Reiniciar();
+
+    }
+    void Reiniciar()
+    {
+        SceneManager.LoadScene(3);
+    }
+}
