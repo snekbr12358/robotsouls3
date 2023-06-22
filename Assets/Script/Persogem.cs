@@ -163,7 +163,7 @@ public class Persogem : MonoBehaviour
     //Atira Balas
     void Atirar()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             idle_icon.SetActive(false);
             animator.SetTrigger("Ataque");
@@ -233,6 +233,6 @@ public class Persogem : MonoBehaviour
     }
     void Reiniciar()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(1);
     }
 }

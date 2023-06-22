@@ -112,8 +112,8 @@ TextureImporter:
         y: 956
         width: 257
         height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,8 +133,8 @@ TextureImporter:
         y: 621
         width: 256
         height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -154,8 +154,8 @@ TextureImporter:
         y: 617
         width: 205
         height: 277
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -175,8 +175,8 @@ TextureImporter:
         y: 611
         width: 157
         height: 381
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,8 +196,8 @@ TextureImporter:
         y: 343
         width: 258
         height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5069455, y: 0.23649435}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -217,8 +217,8 @@ TextureImporter:
         y: 8
         width: 258
         height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5138909, y: 0.2081496}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,8 +238,8 @@ TextureImporter:
         y: 4
         width: 206
         height: 276
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5173974, y: 0.23372579}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -259,8 +259,8 @@ TextureImporter:
         y: 0
         width: 156
         height: 378
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5114871, y: 0.22280188}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -276,12 +276,12 @@ TextureImporter:
       name: viloes_1
       rect:
         serializedVersion: 2
-        x: 1627
-        y: 1040
-        width: 746
-        height: 532
+        x: 99
+        y: 635
+        width: 344
+        height: 123
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: viloes_0
       rect:
         serializedVersion: 2
-        x: 1871
-        y: 27
-        width: 706
-        height: 536
+        x: 1640
+        y: 1043
+        width: 729
+        height: 531
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -318,12 +318,12 @@ TextureImporter:
       name: viloes_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 14
-        width: 346
-        height: 141
+        x: 446
+        y: 631
+        width: 298
+        height: 170
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -339,12 +339,12 @@ TextureImporter:
       name: viloes_3
       rect:
         serializedVersion: 2
-        x: 348
-        y: 16
-        width: 314
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 349
+        y: 18
+        width: 300
+        height: 181
+      alignment: 9
+      pivot: {x: 0.5059732, y: 0.17819975}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -357,43 +357,43 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: viloes_4
+      name: viloes_17
       rect:
         serializedVersion: 2
-        x: 92
-        y: 641
-        width: 354
-        height: 91
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 29
+        width: 348
+        height: 170
+      alignment: 9
+      pivot: {x: 0.50514925, y: 0.09486508}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f9d67a41a53460459f7dd54ce630756
-      internalID: 1313081820
+      spriteID: 6c48afa087b24834e9265958c9b8d68e
+      internalID: 1957413607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: viloes_5
+      name: viloes_21
       rect:
         serializedVersion: 2
-        x: 448
-        y: 628
-        width: 299
-        height: 155
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1872
+        y: 0
+        width: 701
+        height: 559
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beab919a66c7b9c49bd70cef033abb64
-      internalID: 2112210156
+      spriteID: d1dafe67550c0f242b587e34a4635e38
+      internalID: 1136178551
       vertices: []
       indices: 
       edges: []
