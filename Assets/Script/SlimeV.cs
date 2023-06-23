@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class SlimeV : MonoBehaviour
 {
+    Animator animator;
     private float velocidadeauto;
     private SpriteRenderer ImagemSlimeV;
+    bool morreu = false;
 
     public int vida = 6;
     public float velocidade = 0.1f;
@@ -15,14 +17,15 @@ public class SlimeV : MonoBehaviour
     void Start()
     {
         ImagemSlimeV = GetComponent<SpriteRenderer>();
-
+        animator = GetComponent<Animator>();
         velocidadeauto = velocidade;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Andar();
+        if (!morreu)
+            Andar();
     }
     void Andar()
     {
@@ -47,7 +50,17 @@ public class SlimeV : MonoBehaviour
         StartCoroutine("Vermelhinho");
         if (vida <= 0)
         {
-            Destroy(gameObject);
+            morreu = true;
+            Destroy(gameObject, 0.7f);
+            animator.SetBool("Morte", true);
+            ImagemSlimeV.color = Color.white;
         }
+    }
+
+    IEnumerator Vermelhinho()
+    {
+        ImagemSlimeV.color = Color.red;
+        yield return new WaitForSeconds(0.5f);
+        ImagemSlimeV.color = Color.white;
     }
 }

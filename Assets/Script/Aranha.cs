@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Aranha : MonoBehaviour
 {
+    Animator animator;
     private float velocidadeauto;
     private SpriteRenderer ImagemAranha;
+    bool morreu = false;
 
     public int vida = 6;
     public float velocidade = 0.1f;
@@ -14,7 +16,9 @@ public class Aranha : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         ImagemAranha = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
 
         velocidadeauto = velocidade;
 
@@ -23,7 +27,8 @@ public class Aranha : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Andar();
+        if (!morreu)
+            Andar();
     }
     void Andar()
     {
@@ -48,7 +53,16 @@ public class Aranha : MonoBehaviour
         StartCoroutine("Vermelhinho");
         if (vida <= 0)
         {
-            Destroy(gameObject);
+            morreu = true;
+            Destroy(gameObject, 0.7f);
+            animator.SetBool("Morte", true);
+            ImagemAranha.color = Color.white;
         }
+    }
+    IEnumerator Vermelhinho()
+    {
+        ImagemAranha.color = Color.red;
+        yield return new WaitForSeconds(0.5f);
+        ImagemAranha.color = Color.white;
     }
 }

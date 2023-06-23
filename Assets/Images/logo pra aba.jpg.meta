@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 68d4bb6ff3820ad4ebb014379842eeb9
+guid: e53a1b4671c097d488eb41050733e6ce
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 350
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,70 +103,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: mortearanha_0
-      rect:
-        serializedVersion: 2
-        x: 519
-        y: 863
-        width: 865
-        height: 602
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3fa8e599ace9d0a4591ed97b0b2650e8
-      internalID: -731203892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mortearanha_7
-      rect:
-        serializedVersion: 2
-        x: 1204
-        y: 104
-        width: 859
-        height: 662
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e61c2416d50cef40af29a822b71bb78
-      internalID: 1177772701
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mortearanha_10
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 2
-        width: 717
-        height: 737
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2f6f7c137620674e98a2201c5aea991
-      internalID: -761717253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -177,27 +114,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      mortearanha_0: -731203892
-      mortearanha_1: -1128406873
-      mortearanha_10: -761717253
-      mortearanha_11: -1812069465
-      mortearanha_12: -1065532546
-      mortearanha_13: -1375885059
-      mortearanha_14: 1201167858
-      mortearanha_15: -1007304889
-      mortearanha_16: -144861741
-      mortearanha_17: 930352990
-      mortearanha_18: -1119221744
-      mortearanha_19: 1353996927
-      mortearanha_2: 1906678245
-      mortearanha_3: 239900670
-      mortearanha_4: 127165805
-      mortearanha_5: -1948953827
-      mortearanha_6: 1328863810
-      mortearanha_7: 1177772701
-      mortearanha_8: 395824548
-      mortearanha_9: 1524330969
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
