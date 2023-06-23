@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Puloar
+  m_Name: Permorte
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,9 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -1290573165, guid: 28f76e7950fa44648a9650613d18fe86, type: 3}
+      value: {fileID: 2045049267, guid: 95c57fa8ffd9f5d4e8955af4b47b2123, type: 3}
     - time: 0.083333336
-      value: {fileID: -1290573165, guid: 28f76e7950fa44648a9650613d18fe86, type: 3}
+      value: {fileID: 892975754, guid: 95c57fa8ffd9f5d4e8955af4b47b2123, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -33,17 +33,8 @@ AnimationClip:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings:
-    - serializedVersion: 2
-      path: 0
-      attribute: 0
-      script: {fileID: 0}
-      typeID: 212
-      customType: 23
-      isPPtrCurve: 1
-    pptrCurveMapping:
-    - {fileID: -1290573165, guid: 28f76e7950fa44648a9650613d18fe86, type: 3}
-    - {fileID: -1290573165, guid: 28f76e7950fa44648a9650613d18fe86, type: 3}
+    genericBindings: []
+    pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 120
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,7 +103,1855 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: robo corpo_0
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 4432
+        width: 211
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec94702424961ef42ad2d6e2b049176c
+      internalID: 557746501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_1
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 4416
+        width: 163
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4891dac5b0e8d6f4a91ddf79fe97b99c
+      internalID: 2018349562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_2
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 4414
+        width: 142
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c6a4ffa94f7d34db6cf1097ea7388d
+      internalID: 1408127754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_3
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 4434
+        width: 257
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a68f8ca133529849a4ca5db1f429eea
+      internalID: -850183384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_4
+      rect:
+        serializedVersion: 2
+        x: 2967
+        y: 4434
+        width: 181
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5668b253a2402bc49ac0bb147d530989
+      internalID: -1393978823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_5
+      rect:
+        serializedVersion: 2
+        x: 3289
+        y: 4434
+        width: 163
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7bdb35225ff8346b76868065fda3eb
+      internalID: -579754006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_6
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4427
+        width: 234
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8ad2cc1ec5a10439c0e1aabcd820fe
+      internalID: 1324274837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_7
+      rect:
+        serializedVersion: 2
+        x: 3891
+        y: 4416
+        width: 156
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2f489f63593ea459734502fe79fa9f
+      internalID: -3290707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_8
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 3842
+        width: 141
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac6c47418953d8458e50f6d99a0cd81
+      internalID: 1978691196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_9
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 3865
+        width: 147
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9880064191a1b48be5037e255cc83c
+      internalID: 1782879236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_10
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 3869
+        width: 189
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb15fe1e7366a84da1e0952405c517d
+      internalID: -240960958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_11
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 3861
+        width: 271
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665e9a064ceaa904c99d0ce880bce614
+      internalID: -1368489362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_12
+      rect:
+        serializedVersion: 2
+        x: 2968
+        y: 3871
+        width: 176
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ec049aed5f3334aa447d94424a9bf6
+      internalID: -82938208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_13
+      rect:
+        serializedVersion: 2
+        x: 3275
+        y: 3867
+        width: 158
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b73090fb00f8504fa385c914d742be6
+      internalID: 1734739507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_14
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3862
+        width: 230
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8731629a5675c594fba11a38b9b17d32
+      internalID: -781675339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_15
+      rect:
+        serializedVersion: 2
+        x: 3881
+        y: 3853
+        width: 172
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142e0709d7abe4a42b5f2b32937ce993
+      internalID: -817609629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_16
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 3621
+        width: 152
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da60dfb20c3ef047ae6de7878349cf9
+      internalID: 1828540953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_17
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 3201
+        width: 285
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b94ad0a958b79c4393aa6a248336a50
+      internalID: -850417590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_18
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 3483
+        width: 140
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d88920101d041e4fa51bc4d3efa678e
+      internalID: -934994407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_19
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 3483
+        width: 145
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09aed2331c742d74e80da2e1284ed0e7
+      internalID: 1493828149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_20
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 3495
+        width: 189
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2091610b20a7c4f4f902825e067bafa6
+      internalID: 598143643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_21
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 3492
+        width: 271
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811ec9f3c3f87694bb186c16e8820490
+      internalID: -401740979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_22
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 3495
+        width: 175
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb6b35169b9cd24caeac80666f200ad
+      internalID: 863860233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_23
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 3500
+        width: 158
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc452b4d89a3e934bb5556bb509fcdd6
+      internalID: 126625301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_24
+      rect:
+        serializedVersion: 2
+        x: 3514
+        y: 3495
+        width: 229
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669f44d440273d44e95f1aaaf4ebbb28
+      internalID: -878392125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_25
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 3497
+        width: 170
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641d0161885043649a48c723cd709813
+      internalID: -1691020057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_26
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 3534
+        width: 149
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f16d1f99f2d8745a8d971060c12d75
+      internalID: -330167253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_27
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 3162
+        width: 145
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8717f652b943c014a85ba6ea5f70dac6
+      internalID: -481795908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_28
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 2891
+        width: 207
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01e4283b8221ba439a1a54e62fb2482
+      internalID: -697930744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_29
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 2888
+        width: 221
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31f1194131e2c748ba2adbe6c0f63e8
+      internalID: -1398772047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_30
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 2891
+        width: 221
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21481c428b7719a46841680378f9d22b
+      internalID: -2005144005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_31
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 2884
+        width: 285
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045391374d81ff648a64091a2b560d06
+      internalID: 1512585870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_32
+      rect:
+        serializedVersion: 2
+        x: 2946
+        y: 2886
+        width: 228
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14925edf31a556b4f8b381fd09187e03
+      internalID: 1876134437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_33
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 2872
+        width: 225
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14af35e81ca3cf74f865f6a995d19357
+      internalID: -550746066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_34
+      rect:
+        serializedVersion: 2
+        x: 3534
+        y: 2863
+        width: 276
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7edeb1f0838df418d6a50a601d25a4
+      internalID: -929345280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_35
+      rect:
+        serializedVersion: 2
+        x: 3863
+        y: 2856
+        width: 223
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118f4c5cdedc4474886026917319d8ec
+      internalID: 767683119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_36
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 2530
+        width: 285
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ba85fd0d7a9434689e76e4578c0ddb
+      internalID: -489934151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_37
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 2571
+        width: 314
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6147ebd597e55c04094803e5a9ae8c2c
+      internalID: 954782517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_38
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 2505
+        width: 211
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51d545e0d29c554f97b8f650d99d380
+      internalID: 613633361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_39
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2502
+        width: 227
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8463d900b69aff74c9fb5cef7b0a8a35
+      internalID: -1387061624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_40
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 2507
+        width: 223
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ae40c57ba6fcc4e99d46b6a74b7256
+      internalID: -1893719666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_41
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 2509
+        width: 291
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82866d52728036846a2802d8fb96fc80
+      internalID: 1778409150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_42
+      rect:
+        serializedVersion: 2
+        x: 2978
+        y: 2505
+        width: 232
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5cc45ad44deaf49a47d6fd5f908bc0
+      internalID: 664010998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_43
+      rect:
+        serializedVersion: 2
+        x: 3273
+        y: 2516
+        width: 238
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32841a1e6438f4d42b34c800654bf402
+      internalID: -1564167451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_44
+      rect:
+        serializedVersion: 2
+        x: 3543
+        y: 2512
+        width: 283
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6c663b7e083de48a405229371afe8a
+      internalID: -44721269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_45
+      rect:
+        serializedVersion: 2
+        x: 3871
+        y: 2519
+        width: 232
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb42f1ed2628424b9d34df06dcc384a
+      internalID: -602789334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1811
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7915cc2882ac16e40b0264d1a667fb9f
+      internalID: 475593409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_47
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1811
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9feb0f73cadc47545be3f54fd8aead22
+      internalID: -702475699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_48
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1811
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168c0dca0b34e554a9daf447b4485376
+      internalID: -1551051764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_49
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1811
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14009f981bcd13f4db2f9ec8f0572950
+      internalID: -1515642190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_50
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1811
+        width: 89
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab180d83f05e006438499c0edad00877
+      internalID: 999057727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_51
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1811
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e015fe095a8d0418c702393583ab55
+      internalID: 1521177336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_52
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1811
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eacc2a691e9baf4882b94728f37146b
+      internalID: 1766843908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_53
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1811
+        width: 89
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a979e75ab540004fb9bb53ca6fc1e8f
+      internalID: -81441445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_54
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 1829
+        width: 90
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d6b475f5b3298439eb7550afa3c57f
+      internalID: -307501260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_55
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1829
+        width: 85
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ba648572da883469a2965d7ebcc185
+      internalID: -860451433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_56
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1834
+        width: 88
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39592ca6a04ac745abec562b0341eed
+      internalID: -1414369328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_57
+      rect:
+        serializedVersion: 2
+        x: 2427
+        y: 1708
+        width: 230
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703b3a5d2fd843d49abacdf245ee3370
+      internalID: -455015592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_58
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 1710
+        width: 228
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4de443c52275f4a94062f97f6d543b
+      internalID: -1005888942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_59
+      rect:
+        serializedVersion: 2
+        x: 3824
+        y: 1393
+        width: 205
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c4f3e61d949fd488bff499cf56e5a7
+      internalID: 427580039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_60
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 1496
+        width: 110
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90a03323c16c5e45b851500e0cf6688
+      internalID: -1210256186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_61
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1506
+        width: 94
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72886f6a4fb48d948bacf0556eab91cb
+      internalID: -233129383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_62
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 1510
+        width: 95
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa43c0063885ee4fb9092ddedcc9b3d
+      internalID: 1099429493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_63
+      rect:
+        serializedVersion: 2
+        x: 2441
+        y: 1407
+        width: 227
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63849c5a6aefc3742bd15b0b513102eb
+      internalID: 1218971159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_64
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 1405
+        width: 230
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8999cb5d1c1cc6442b3e996a9f2b3891
+      internalID: -90558382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_65
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 1395
+        width: 202
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f5757345b7bbe468d643c6118729b3
+      internalID: 1326123209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_66
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1116
+        width: 138
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e17ccafb3c148c48b6bd9eacc1b50f7
+      internalID: 1763177945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_67
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1106
+        width: 117
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17395aac293d54947b4ab2ead546a788
+      internalID: -850888551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_68
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1106
+        width: 149
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1486fba68480b4742b732cb1bca0e7de
+      internalID: 1447822108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_69
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1134
+        width: 269
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691bd8127169dba4bbc309bc3281a107
+      internalID: -141331883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_70
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 1101
+        width: 202
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e140ab3888222d448c4e2c22d93cedd
+      internalID: 1924530864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_71
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 1099
+        width: 200
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ed51164b63f01499715400c001dc57
+      internalID: -191718000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_72
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 725
+        width: 177
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ea0bb79317a46488cc4f80f471a56a
+      internalID: -1447882795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_73
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 720
+        width: 228
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa0eb0e73b5c824daa3ac7ca850d3e8
+      internalID: -617246468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_74
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 720
+        width: 142
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6644d834b3edeb4eb33bee44d6a88ab
+      internalID: -260773511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_75
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 743
+        width: 269
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b081b4cc803dda846a99cf6d82ea785c
+      internalID: 1957260529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_76
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 686
+        width: 90
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8893e2b8bb1ad42b7ce437cdc3bb20
+      internalID: 1769876570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_77
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 686
+        width: 85
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb637d309ab19f34790219da9a453613
+      internalID: 2061441239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_78
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 691
+        width: 88
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cfe6f433f9d6f43b0b1fd83a85aedd
+      internalID: -18495688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_79
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 796
+        width: 199
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06fd299d14954924080413eb29fe70fe
+      internalID: -321620133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_80
+      rect:
+        serializedVersion: 2
+        x: 3812
+        y: 798
+        width: 202
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5789bce28c6aa274ca2c31c6828dda44
+      internalID: -1980396515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_81
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 284
+        width: 176
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9be4384155f5749b5c27209b2c1ce0
+      internalID: 849244335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_82
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 291
+        width: 230
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db502a1040780fc42807b44e34f1ba02
+      internalID: 1232211196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_83
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 293
+        width: 129
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13db2d1b57546b24d95043bbaa2291c9
+      internalID: 1519994331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_84
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 311
+        width: 269
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60cf34512064e149be144fb3fe68d84
+      internalID: -1019713740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_85
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 0
+        width: 280
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4856c1c2a89e9d469dd09ea380344c2
+      internalID: 2045049267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_86
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 18
+        width: 335
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bad255654a7f604485adc8f15b86d16
+      internalID: 892975754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robo corpo_87
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 20
+        width: 346
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab290d97bd31adc43a6ea467f4d64a3d
+      internalID: -387576207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +1962,95 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      robo corpo_0: 557746501
+      robo corpo_1: 2018349562
+      robo corpo_10: -240960958
+      robo corpo_11: -1368489362
+      robo corpo_12: -82938208
+      robo corpo_13: 1734739507
+      robo corpo_14: -781675339
+      robo corpo_15: -817609629
+      robo corpo_16: 1828540953
+      robo corpo_17: -850417590
+      robo corpo_18: -934994407
+      robo corpo_19: 1493828149
+      robo corpo_2: 1408127754
+      robo corpo_20: 598143643
+      robo corpo_21: -401740979
+      robo corpo_22: 863860233
+      robo corpo_23: 126625301
+      robo corpo_24: -878392125
+      robo corpo_25: -1691020057
+      robo corpo_26: -330167253
+      robo corpo_27: -481795908
+      robo corpo_28: -697930744
+      robo corpo_29: -1398772047
+      robo corpo_3: -850183384
+      robo corpo_30: -2005144005
+      robo corpo_31: 1512585870
+      robo corpo_32: 1876134437
+      robo corpo_33: -550746066
+      robo corpo_34: -929345280
+      robo corpo_35: 767683119
+      robo corpo_36: -489934151
+      robo corpo_37: 954782517
+      robo corpo_38: 613633361
+      robo corpo_39: -1387061624
+      robo corpo_4: -1393978823
+      robo corpo_40: -1893719666
+      robo corpo_41: 1778409150
+      robo corpo_42: 664010998
+      robo corpo_43: -1564167451
+      robo corpo_44: -44721269
+      robo corpo_45: -602789334
+      robo corpo_46: 475593409
+      robo corpo_47: -702475699
+      robo corpo_48: -1551051764
+      robo corpo_49: -1515642190
+      robo corpo_5: -579754006
+      robo corpo_50: 999057727
+      robo corpo_51: 1521177336
+      robo corpo_52: 1766843908
+      robo corpo_53: -81441445
+      robo corpo_54: -307501260
+      robo corpo_55: -860451433
+      robo corpo_56: -1414369328
+      robo corpo_57: -455015592
+      robo corpo_58: -1005888942
+      robo corpo_59: 427580039
+      robo corpo_6: 1324274837
+      robo corpo_60: -1210256186
+      robo corpo_61: -233129383
+      robo corpo_62: 1099429493
+      robo corpo_63: 1218971159
+      robo corpo_64: -90558382
+      robo corpo_65: 1326123209
+      robo corpo_66: 1763177945
+      robo corpo_67: -850888551
+      robo corpo_68: 1447822108
+      robo corpo_69: -141331883
+      robo corpo_7: -3290707
+      robo corpo_70: 1924530864
+      robo corpo_71: -191718000
+      robo corpo_72: -1447882795
+      robo corpo_73: -617246468
+      robo corpo_74: -260773511
+      robo corpo_75: 1957260529
+      robo corpo_76: 1769876570
+      robo corpo_77: 2061441239
+      robo corpo_78: -18495688
+      robo corpo_79: -321620133
+      robo corpo_8: 1978691196
+      robo corpo_80: -1980396515
+      robo corpo_81: 849244335
+      robo corpo_82: 1232211196
+      robo corpo_83: 1519994331
+      robo corpo_84: -1019713740
+      robo corpo_85: 2045049267
+      robo corpo_86: 892975754
+      robo corpo_87: -387576207
+      robo corpo_9: 1782879236
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

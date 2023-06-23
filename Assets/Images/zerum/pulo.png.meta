@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 120
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -367,18 +367,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pulo_2: 969554564
       pulo_0: 1532403639
-      pulo_3: 2144906639
-      pulo_10: 498573367
-      pulo_9: -452102264
-      pulo_7: 290783198
-      pulo_5: 1568057494
-      pulo_4: -103565175
-      pulo_6: -1290573165
-      pulo_8: -2144416959
-      pulo_11: -1645279977
       pulo_1: 268402027
+      pulo_10: 498573367
+      pulo_11: -1645279977
+      pulo_2: 969554564
+      pulo_3: 2144906639
+      pulo_4: -103565175
+      pulo_5: 1568057494
+      pulo_6: -1290573165
+      pulo_7: 290783198
+      pulo_8: -2144416959
+      pulo_9: -452102264
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

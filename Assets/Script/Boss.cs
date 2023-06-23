@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
+    Animator animator;
     private float velocidadeauto;
     private SpriteRenderer ImagemBoss;
+    bool morreu = false;
 
     public int vida = 50;
     public float velocidade = 0.1f;
@@ -16,7 +18,7 @@ public class Boss : MonoBehaviour
     void Start()
     {
         ImagemBoss = GetComponent<SpriteRenderer>();
-
+        Animator animator = GetComponent<Animator>();
         velocidadeauto = velocidade;
 
     }
@@ -24,6 +26,7 @@ public class Boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(!morreu) 
         Andar();
     }
     void Andar()
@@ -49,9 +52,18 @@ public class Boss : MonoBehaviour
         StartCoroutine("Vermelhinho");
         if (vida <= 0)
         {
-            teladevitoria.SetActive(true);
-            Destroy(gameObject);
+            morreu = true;
+            Destroy(gameObject, 0.7f);
+            animator.SetBool("Morte", true);
+            ImagemBoss.color = Color.white;
         }
+    }
+
+    IEnumerator Vermelhinho()
+    {
+        ImagemBoss.color = Color.red;
+        yield return new WaitForSeconds(0.5f);
+        ImagemBoss.color = Color.white;
     }
 
 }

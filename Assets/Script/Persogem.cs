@@ -92,6 +92,7 @@ public class Persogem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && pode_pular == true)
         {
+            animator.SetTrigger("Pula");
             pode_pular = false;
             qtd_pulo++;
             if (qtd_pulo <= 2)
