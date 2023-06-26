@@ -81,10 +81,12 @@ public class Persogem : MonoBehaviour
     {
         if(velocidade > 0)
         {
+           
             ImagemPersonagem.flipX = false;
         }
         if(velocidade < 0)
         {
+           
             ImagemPersonagem.flipX = true;
         }
     }
@@ -92,7 +94,7 @@ public class Persogem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && pode_pular == true)
         {
-            animator.SetTrigger("Pula");
+            animator.SetBool("Pula", true);
             pode_pular = false;
             qtd_pulo++;
             if (qtd_pulo <= 2)
@@ -113,6 +115,7 @@ public class Persogem : MonoBehaviour
     {
         if (gatilho.gameObject.tag == "chao")
         {
+            animator.SetBool("Pula", false);
             qtd_pulo = 0;
             pode_pular = true;
             meuTempoPulo = 0; 
@@ -141,8 +144,9 @@ public class Persogem : MonoBehaviour
                 vida--;
                 Perderhp();
                 pode_dano = false;
-                ImagemPersonagem.color = UnityEngine.Color.red;
+                //ImagemPersonagem.color = UnityEngine.Color.red;
                 meuTempoDano = 0;
+                animator.SetTrigger("Dano");
                 //só morro se minha vida for menor ou igual a 0
                 if (vida <= 0)
                 {
@@ -234,6 +238,6 @@ public class Persogem : MonoBehaviour
     }
     void Reiniciar()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }

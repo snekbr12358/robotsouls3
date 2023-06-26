@@ -51,7 +51,7 @@ public class Slime : MonoBehaviour
         if (vida <= 0)
         {
             morreu = true;
-            Destroy(gameObject, 0.7f);
+            Destroy(gameObject, 1);
             animator.SetBool("Morte", true);
             ImagemSlime.color = Color.white;
         }

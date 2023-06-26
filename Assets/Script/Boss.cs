@@ -18,7 +18,7 @@ public class Boss : MonoBehaviour
     void Start()
     {
         ImagemBoss = GetComponent<SpriteRenderer>();
-        Animator animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         velocidadeauto = velocidade;
 
     }
@@ -27,35 +27,39 @@ public class Boss : MonoBehaviour
     void Update()
     {
         if(!morreu) 
-        Andar();
+            Andar();
     }
     void Andar()
     {
-        transform.position = new Vector3(transform.position.x + velocidadeauto, transform.position.y, transform.position.z);
         //mudar velocidade
         //Andar para trás
         if (transform.position.x > distFinal)
         {
-            velocidadeauto = velocidade * -1f;
+            velocidade = velocidade * -1f;
             ImagemBoss.flipX = false;
         }
         //Andar para frente
         if (transform.position.x < distInicial)
         {
-            velocidadeauto = velocidade * 1f;
+            velocidade = velocidade * -1f;
             ImagemBoss.flipX = true;
         }
+        
+        transform.position = new Vector3(transform.position.x + velocidade, transform.position.y, transform.position.z);
     }
     public void LevarDano(int dano)
     {
-        vida -= dano;
-        StartCoroutine("Vermelhinho");
-        if (vida <= 0)
-        {
-            morreu = true;
-            Destroy(gameObject, 0.7f);
-            animator.SetBool("Morte", true);
-            ImagemBoss.color = Color.white;
+        if (!morreu) 
+        { 
+            vida -= dano;
+            StartCoroutine("Vermelhinho");
+            if (vida <= 0)
+            {
+                morreu = true;
+                Destroy(gameObject, 1f);
+                animator.SetBool("Morte", true);
+                ImagemBoss.color = Color.white;
+            }
         }
     }
 
