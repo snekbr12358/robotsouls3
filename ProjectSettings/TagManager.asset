@@ -12,6 +12,9 @@ TagManager:
   - Pe
   - Bala
   - Tranpolim
+  - Moeda
+  - Caixa
+  - Moeda_texto_tag
   layers:
   - Default
   - TransparentFX

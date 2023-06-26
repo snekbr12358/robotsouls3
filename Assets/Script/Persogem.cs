@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Drawing;
+using Unity.VisualScripting;
 
 public class Persogem : MonoBehaviour
 {
@@ -36,7 +37,9 @@ public class Persogem : MonoBehaviour
     private bool pode_dano = true;
     public Image barrahp;
 
-   
+    //Moeda
+    public int moedas = 0;
+    private Text Moeda_texto;
 
  
     
@@ -46,7 +49,7 @@ public class Persogem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        Moeda_texto = GameObject.FindGameObjectWithTag("Moeda_texto_tag").GetComponent<Text>();
         barrahp = GameObject.FindGameObjectWithTag("hp_barra").GetComponent<Image>();
         animator = GetComponent<Animator>();
     }
@@ -62,7 +65,7 @@ public class Persogem : MonoBehaviour
     }
     void Mover()
     {
-        velocidade = Input.GetAxis("Horizontal") * 5;
+        velocidade = Input.GetAxis("Horizontal") * 8;
         Corpo.velocity = new Vector2(velocidade, Corpo.velocity.y);
         if (Mathf.Abs(velocidade)> 0)
         {
@@ -94,6 +97,7 @@ public class Persogem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && pode_pular == true)
         {
+            idle_icon.SetActive(false); 
             animator.SetBool("Pula", true);
             pode_pular = false;
             qtd_pulo++;
@@ -110,18 +114,26 @@ public class Persogem : MonoBehaviour
         //Corpo.velocity = new Vector2(velocidade, 0);
         Corpo.AddForce(Vector2.up * 400f);
     }
-
+    //Gatilhos
     void OnTriggerEnter2D(Collider2D gatilho)
     {
         if (gatilho.gameObject.tag == "chao")
         {
+            idle_icon.SetActive(false);
             animator.SetBool("Pula", false);
             qtd_pulo = 0;
             pode_pular = true;
             meuTempoPulo = 0; 
 
         }
+        if(gatilho.gameObject.tag == "Moeda")
+        {
+           Destroy(gatilho.gameObject);
+            moedas++;
+            Moeda_texto.text = moedas.ToString();
+        }
     }
+    
     //Tempo de Pulo
     void TemporizadorPulo()
     {
@@ -169,8 +181,7 @@ public class Persogem : MonoBehaviour
     void Atirar()
     {
         if (Input.GetKeyDown(KeyCode.X))
-        {
-            idle_icon.SetActive(false);
+        {           
             animator.SetTrigger("Ataque");
            //Instantiate(Bala, this.transform.position, this.transform.rotation);
             Disparor();
@@ -179,7 +190,6 @@ public class Persogem : MonoBehaviour
 
     void Disparor()
     {
-        idle_icon.SetActive(false);
         Vector3 pontoDisparo = Vector3.zero;
         if (ImagemPersonagem.flipX)
         {

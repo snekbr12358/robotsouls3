@@ -45,6 +45,7 @@ public class ControleBala : MonoBehaviour
         Debug.Log(colisao.gameObject.tag);
         if (colisao.gameObject.tag == "Inimigo")
         {
+ 
             Slime slime = colisao.gameObject.GetComponent<Slime>();
             SlimeV slimev = colisao.gameObject.GetComponent<SlimeV>();
             Aranha aranha = colisao.gameObject.GetComponent<Aranha>();
@@ -75,5 +76,16 @@ public class ControleBala : MonoBehaviour
             Destroy(this.gameObject);
         }
 
+    }
+    private void OnCollisionStay2D(Collision2D colisao)
+    {
+        if (colisao.gameObject.tag == "Caixa")
+        {
+            Caixa caixa = colisao.gameObject.GetComponent<Caixa>();
+            if (caixa != null)
+            {
+               caixa.LevarDano(dano);
+            }
+        }
     }
 }
