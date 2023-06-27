@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
+    public Caixa caixa;
+    public AlavancaController alavanca;
+
     Animator animator;
     private float velocidadeauto;
-    private SpriteRenderer ImagemBoss;
+     private SpriteRenderer ImagemBoss;
     bool morreu = false;
 
     public int vida = 50;
@@ -59,6 +62,8 @@ public class Boss : MonoBehaviour
                 Destroy(gameObject, 1f);
                 animator.SetBool("Morte", true);
                 ImagemBoss.color = Color.white;
+                alavanca.DesativarEscudo();
+                caixa.LevarDano(dano);
             }
         }
     }
