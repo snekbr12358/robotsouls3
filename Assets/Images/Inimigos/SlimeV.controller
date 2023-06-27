@@ -35,7 +35,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Slimemorte
-  m_Speed: 1
+  m_Speed: 0.3
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -47,7 +47,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c5e400e4872d8a2499f2775b439160b0, type: 2}
+  m_Motion: {fileID: 7400000, guid: 7f7ffbd4148819c4f834c77bc5c4cc45, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
