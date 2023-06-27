@@ -41,6 +41,7 @@ public class Persogem : MonoBehaviour
     public int moedas = 0;
     private Text Moeda_texto;
 
+
  
     
 
@@ -173,7 +174,7 @@ public class Persogem : MonoBehaviour
                 pode_dano = false;
                 vida = vida - 3;
                 Perderhp();
-                Morrer();
+                SceneManager.LoadScene(1);
             }
         }
     }
@@ -241,10 +242,8 @@ public class Persogem : MonoBehaviour
         
     }
     void Morrer()
-
     {
         Reiniciar();
-
     }
     void Reiniciar()
     {

@@ -7,7 +7,7 @@ public class ControleBala : MonoBehaviour
     //VARIAVEIS 
 
     //VELOCIDADE DA BALA
-    private float velocidade_bala = 0.000000000000000005f;
+    private float velocidade_bala = 0.00000000000000005f;
     private bool pode_atira = true;
 
     public int dano;

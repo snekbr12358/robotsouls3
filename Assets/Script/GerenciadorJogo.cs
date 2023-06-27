@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class GerenciadorJogo : MonoBehaviour
 {
     [SerializeField] private GameObject painelMenuInicial;
-    [SerializeField] private GameObject painalOpcoes;
+    [SerializeField] private GameObject painelOpcoes;
     public bool GameLigado = false;
     // Start is called before the first frame update
     void Start()
@@ -40,18 +40,20 @@ public class GerenciadorJogo : MonoBehaviour
     public void PersogemMorreu()
     {
         //Reiniciar o Jogo Nesse Momento
-        void Reiniciar()
-        {
-            SceneManager.LoadScene(0);
-        }
+        Reiniciar();
+    }
+    //Reinicia o Jogo
+    void Reiniciar()
+    {
+        SceneManager.LoadScene(0);
     }
     public void AbrirOpcoes() 
-    { 
-    
+    {
+        SceneManager.LoadScene(3);
     }
     public void FecharOpçoes()
     {
-
+        SceneManager.LoadScene(0);
     }
     public void SairJogo()
     {

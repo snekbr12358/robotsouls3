@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class AlavancaController : MonoBehaviour
 {
+    Animator animator;
     public GameObject aboboda;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -22,8 +23,9 @@ public class AlavancaController : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
+            animator.SetBool("Ativada", true);
             if (!aboboda.activeSelf) 
-            { 
+            {
                 //colocar logica de acabar o jogo
             }
         }
