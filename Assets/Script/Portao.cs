@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Portao : MonoBehaviour
 {
-    public AlavancaController Alavanca;
-    public float velocidade = 2f;
+    
+
    
     void Start()
     {
@@ -16,10 +17,15 @@ public class Portao : MonoBehaviour
     
     void Update()
     {
-        if (Alavanca.Ativada == true)
+        
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
         {
-            transform.Translate(Vector2.up * Time.deltaTime * velocidade);
+            SceneManager.LoadScene(2);
         }
     }
-    
+
+
 }

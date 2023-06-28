@@ -60,4 +60,8 @@ public class GerenciadorJogo : MonoBehaviour
         Debug.Log("Sair do Jogo");
         Application.Quit();
     }
+    public void Creditos()
+    {
+        SceneManager.LoadScene(4);
+    }
 }

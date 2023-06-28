@@ -35,7 +35,6 @@ public class AlavancaController : MonoBehaviour
             {
                 //colocar logica de acabar o jogo
                 caixa.LevarDano(dano);
-                Ativada = true;
             }
         }
     }
