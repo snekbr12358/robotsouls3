@@ -247,6 +247,6 @@ public class Persogem : MonoBehaviour
     }
     void Reiniciar()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

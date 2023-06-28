@@ -1,11 +1,18 @@
  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AlavancaController : MonoBehaviour
 {
+    public Caixa caixa;
+    public int dano;
+
     Animator animator;
+
     public GameObject aboboda;
+    public GameObject teladevitoria;
+    public bool Ativada;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +34,8 @@ public class AlavancaController : MonoBehaviour
             if (!aboboda.activeSelf) 
             {
                 //colocar logica de acabar o jogo
+                caixa.LevarDano(dano);
+                Ativada = true;
             }
         }
     }
@@ -35,5 +44,5 @@ public class AlavancaController : MonoBehaviour
     { 
         aboboda.SetActive(false);
     }
-
+   
 }

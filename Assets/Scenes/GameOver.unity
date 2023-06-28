@@ -736,5 +736,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   painelMenuInicial: {fileID: 0}
-  painalOpcoes: {fileID: 0}
+  painelOpcoes: {fileID: 0}
   GameLigado: 0

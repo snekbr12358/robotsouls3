@@ -9,14 +9,13 @@ public class Boss : MonoBehaviour
 
     Animator animator;
     private float velocidadeauto;
-     private SpriteRenderer ImagemBoss;
+    private SpriteRenderer ImagemBoss;
     bool morreu = false;
 
     public int vida = 50;
     public float velocidade = 0.1f;
     public float distInicial = 0f;
     public float distFinal = 0f;
-    public GameObject teladevitoria;
     // Start is called before the first frame update
     void Start()
     {
@@ -63,7 +62,7 @@ public class Boss : MonoBehaviour
                 animator.SetBool("Morte", true);
                 ImagemBoss.color = Color.white;
                 alavanca.DesativarEscudo();
-                caixa.LevarDano(dano);
+                
             }
         }
     }

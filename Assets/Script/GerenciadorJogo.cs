@@ -39,8 +39,8 @@ public class GerenciadorJogo : MonoBehaviour
     }
     public void PersogemMorreu()
     {
-        //Reiniciar o Jogo Nesse Momento
-        Reiniciar();
+      //Reiniciar o Jogo Nesse Momento
+      Reiniciar();
     }
     //Reinicia o Jogo
     void Reiniciar()
