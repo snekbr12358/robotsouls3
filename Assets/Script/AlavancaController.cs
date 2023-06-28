@@ -30,9 +30,11 @@ public class AlavancaController : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            animator.SetBool("Ativada", true);
+            
             if (!aboboda.activeSelf) 
             {
+                animator.SetBool("Ativada", true);
+                Ativada= true;
                 //colocar logica de acabar o jogo
                 caixa.LevarDano(dano);
             }

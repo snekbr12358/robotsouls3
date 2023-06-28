@@ -75,7 +75,15 @@ public class ControleBala : MonoBehaviour
             //ESTE OBJETO (BALA)
             Destroy(this.gameObject);
         }
-
+        if (colisao.gameObject.tag == "Caixa")
+        {
+            Caixa caixa = colisao.gameObject.GetComponent<Caixa>();
+            if (caixa != null)
+            {
+                caixa.LevarDano(dano);
+            }
+        }
+        Destroy(this.gameObject);
     }
     private void OnCollisionStay2D(Collision2D colisao)
     {

@@ -41,7 +41,7 @@ public class Persogem : MonoBehaviour
     public int moedas = 0;
     private Text Moeda_texto;
 
-
+    GerenciadorJogo GJ;
  
     
 
@@ -53,16 +53,19 @@ public class Persogem : MonoBehaviour
         Moeda_texto = GameObject.FindGameObjectWithTag("Moeda_texto_tag").GetComponent<Text>();
         barrahp = GameObject.FindGameObjectWithTag("hp_barra").GetComponent<Image>();
         animator = GetComponent<Animator>();
+        GJ = FindObjectOfType<GerenciadorJogo>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Mover();
-        Apontar();
-        Pular();
-        Atirar();
-        Dano();
+        if (GJ.EstadoDoJogo()) { 
+            Mover();
+            Apontar();
+            Pular();
+            Atirar();
+            Dano();
+        }
     }
     void Mover()
     {

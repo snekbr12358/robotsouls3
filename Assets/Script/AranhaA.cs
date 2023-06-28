@@ -11,7 +11,7 @@ public class AranhaA : MonoBehaviour
 
 
     public int vida = 6;
-    public float velocidade = 0.1f;
+    public float velocidade = 0.03f;
     public float distInicial = 0f;
     public float distFinal = 0f;
     // Start is called before the first frame update

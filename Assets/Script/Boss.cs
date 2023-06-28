@@ -13,7 +13,7 @@ public class Boss : MonoBehaviour
     bool morreu = false;
 
     public int vida = 50;
-    public float velocidade = 0.1f;
+    public float velocidade = 0.05f;
     public float distInicial = 0f;
     public float distFinal = 0f;
     // Start is called before the first frame update
