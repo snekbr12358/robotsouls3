@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 63740e4902d7b8e478d0f40087ea7c0b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df51f390b61ce6149b5c5722f52b43a8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -318,10 +318,10 @@ RectTransform:
   m_Father: {fileID: 1843557458}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.40539584, y: 0.5092262}
-  m_AnchorMax: {x: 0.64221954, y: 0.5803969}
-  m_AnchoredPosition: {x: 1, y: 2.5}
-  m_SizeDelta: {x: 2, y: 9}
+  m_AnchorMin: {x: 0.36966473, y: 0.56200004}
+  m_AnchorMax: {x: 0.60918564, y: 0.6292541}
+  m_AnchoredPosition: {x: -1, y: -4.5}
+  m_SizeDelta: {x: -2, y: 14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1046688028
 MonoBehaviour:
@@ -735,6 +735,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51d1866682dc9f94a85783dfb9626a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
   painelMenuInicial: {fileID: 0}
   painelOpcoes: {fileID: 0}
   GameLigado: 0
+  pauseMenu: {fileID: 0}
