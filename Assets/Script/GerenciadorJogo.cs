@@ -24,6 +24,7 @@ public class GerenciadorJogo : MonoBehaviour
     { 
         GameLigado = true;
         Time.timeScale = 1;
+        audioSource.Stop();
     }
 
     // Update is called once per frame

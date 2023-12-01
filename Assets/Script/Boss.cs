@@ -47,7 +47,7 @@ public class Boss : MonoBehaviour
             ImagemBoss.flipX = true;
         }
         
-        transform.position = new Vector3(transform.position.x + velocidade, transform.position.y, transform.position.z);
+        transform.position = new Vector3(transform.position.x + velocidade , transform.position.y, transform.position.z);
     }
     public void LevarDano(int dano)
     {

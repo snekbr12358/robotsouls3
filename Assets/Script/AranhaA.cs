@@ -30,7 +30,7 @@ public class AranhaA : MonoBehaviour
     }
     void Andar()
     {
-        transform.position = new Vector3(transform.position.x + velocidadeauto, transform.position.y, transform.position.z);
+        transform.position = new Vector3(transform.position.x + velocidadeauto *Time.deltaTime, transform.position.y, transform.position.z);
         //mudar velocidade
         //Andar para trás
         if (transform.position.x > distFinal)
