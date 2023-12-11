@@ -250,6 +250,7 @@ public class Persogem : MonoBehaviour
     }
     void Morrer()
     {
+
         Reiniciar();
     }
     void Reiniciar()
