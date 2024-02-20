@@ -186,7 +186,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10654751}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89.9, y: 1.3, z: -10}
+  m_LocalPosition: {x: -90.8, y: -0.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2006,9 +2006,10 @@ GameObject:
   - component: {fileID: 455133677}
   - component: {fileID: 455133679}
   - component: {fileID: 455133678}
+  - component: {fileID: 455133680}
   m_Layer: 0
   m_Name: "port\xE3oferro"
-  m_TagString: Untagged
+  m_TagString: Portao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2149,6 +2150,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &455133680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 455133674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71226d31929565e42a0d4c7077d6df32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &504609200 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3803697899991978625, guid: 42f63195f6169ca44a82681097f0d809, type: 3}
@@ -2372,7 +2385,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -89.9, y: 1.3, z: -10}
+  m_LocalPosition: {x: -90.8, y: -0.8, z: -10}
   m_LocalScale: {x: 1, y: 1, z: -3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -54400,7 +54413,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508053892}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -89.9, y: 1.3, z: 0}
+  m_LocalPosition: {x: -90.8, y: -0.8, z: 0}
   m_LocalScale: {x: 1.0220925, y: 0.7589298, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -56034,6 +56047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b7902687a2519a409b4e8662897043d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gateController: {fileID: 455133680}
   caixa: {fileID: 0}
   dano: 0
   aboboda: {fileID: 1965124414}

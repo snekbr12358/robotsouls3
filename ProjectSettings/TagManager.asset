@@ -15,6 +15,7 @@ TagManager:
   - Moeda
   - Caixa
   - Moeda_texto_tag
+  - Portao
   layers:
   - Default
   - TransparentFX
