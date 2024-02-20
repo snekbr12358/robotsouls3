@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class AlavancaController : MonoBehaviour
 {
+    public Gate gateController;
+
+
     public Caixa caixa;
     public int dano;
 
@@ -25,25 +28,35 @@ public class AlavancaController : MonoBehaviour
     {
         
     }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.tag == "Player")
-        {
-            
-            if (!aboboda.activeSelf) 
-            {
-                animator.SetBool("Ativada", true);
-                Ativada= true;
-                //colocar logica de acabar o jogo
-                caixa.LevarDano(dano);
-            }
-        }
-    }
-
     public void DesativarEscudo() 
     { 
         aboboda.SetActive(false);
     }
-   
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (gateController != null)
+        {
+            if(collision.tag == "Player")
+            {
+                if (!aboboda.activeSelf)
+                {
+                    animator.SetBool("Ativada", true);
+                    Ativada = true;
+                    if (gateController.isActiveAndEnabled)
+                    {
+                        gateController.HideGate();
+                    }
+                    else
+                    {
+                        gateController.ShowGate();
+                    }
+                }
+            }
+        }
+    }
 }
+
+    
+
+
