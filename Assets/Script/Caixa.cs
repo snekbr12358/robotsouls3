@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class Caixa : MonoBehaviour
 {
-    private Renderer gateRenderer;
-    private bool gateVisible = true;
-
-
-
 
     public AudioSource audioSource;
     
@@ -25,7 +20,6 @@ public class Caixa : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gateRenderer = GetComponent<Renderer>();
 
 
         ImagemCaixa = GetComponent<SpriteRenderer>();
@@ -55,18 +49,6 @@ public class Caixa : MonoBehaviour
                 ImagemCaixa.color = Color.white;
             }
         }
-    }
-    public void ShowGate()
-    {
-        gateVisible = true;
-        gateRenderer.enabled = true;
-    }
-
-
-    public void HideGate()
-    {
-        gateVisible = false;
-        gateRenderer.enabled = false;
     }
 }
 
