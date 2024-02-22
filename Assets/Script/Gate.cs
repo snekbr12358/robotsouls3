@@ -23,7 +23,7 @@ public class Gate : MonoBehaviour
 
     public void HideGate()
     {
-        Destroy(gameObject, 0.7f);
+        Destroy(gameObject);
         gateVisible = false;
         gateRenderer.enabled = false;
     }
