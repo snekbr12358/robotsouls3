@@ -24,7 +24,7 @@ public class GerenciadorJogo : MonoBehaviour
     { 
         GameLigado = true;
         Time.timeScale = 1;
-        
+        audioSource.mute = true;
     }
 
     // Update is called once per frame
@@ -83,12 +83,14 @@ public class GerenciadorJogo : MonoBehaviour
             pauseMenu.gameObject.SetActive(false);
             Time.timeScale = 1;
             GameLigado = true;
+            audioSource.Stop();
         }
         else
         {
             pauseMenu.gameObject.SetActive(true);
             Time.timeScale = 0;
             GameLigado = false;
+
         }
     }
 }
