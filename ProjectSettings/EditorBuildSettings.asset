@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Creditos.unity
     guid: 686eeb128819c2b44b9a01bd687a54d1
   - enabled: 0
-    path: Assets/robotsouls4.unity
-    guid: 2584a21c550871f46819f3fe7155de26
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
