@@ -7,15 +7,19 @@ public class ControleBala : MonoBehaviour
     //VARIAVEIS 
 
     //VELOCIDADE DA BALA
-    private float velocidade_bala = 0.00000000000000005f;
+    private int direcao;
+    public float velocidade_bala;
     private bool pode_atira = true;
 
     public int dano;
 
+    Rigidbody2D rb;
 
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
+        rb.velocity = Vector2.right * velocidade_bala * direcao;
+        Destroy(gameObject, 0.7f);
     }
 
     // Update is called once per frame
@@ -25,17 +29,22 @@ public class ControleBala : MonoBehaviour
 
     }
 
+    private void FixedUpdate()
+    {
+        
+    }
+
     //MOVIMENTAÇÃO DA BALA
     void MoverBala()
     {
-        transform.position = new Vector3(transform.position.x + velocidade_bala, transform.position.y, transform.position.z);
+        //transform.position = new Vector3(transform.position.x + velocidade_bala, transform.position.y, transform.position.z);
     }
 
     //DIREÇÃO DA BALA
-    public void DirecaoBala(float direcao)
+    public void DirecaoBala(int dir)
     {
         SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
-        velocidade_bala = direcao;
+        direcao = dir;
         if (direcao < 0)
             spriteRenderer.flipX = true;
     }

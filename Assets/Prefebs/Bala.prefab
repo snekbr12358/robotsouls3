@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0067cdcc1b6cfc4786bccacbedbafd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  velocidade_bala: 15
   dano: 2
 --- !u!82 &417265815943766974
 AudioSource:

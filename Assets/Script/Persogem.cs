@@ -202,20 +202,18 @@ public class Persogem : MonoBehaviour
         {
             pontoDisparo = new Vector3(
                 transform.position.x - 1f,
-                transform.position.y,
+                transform.position.y ,
                 transform.position.z);
             GameObject BalaDisparada = Instantiate(Bala, pontoDisparo, Quaternion.identity);
-            BalaDisparada.GetComponent<ControleBala>().DirecaoBala(velocidadeBala * -1);
-            Destroy(BalaDisparada, 0.3f);
+            BalaDisparada.GetComponent<ControleBala>().DirecaoBala(-1);
         }
         else {
             pontoDisparo = new Vector3(
                 transform.position.x + 1f,
-                transform.position.y,
+                transform.position.y + 0.2f,
                 transform.position.z);
             GameObject BalaDisparada = Instantiate(Bala, pontoDisparo, Quaternion.identity);
-            BalaDisparada.GetComponent<ControleBala>().DirecaoBala(velocidadeBala);
-            Destroy(BalaDisparada, 0.3f);
+            BalaDisparada.GetComponent<ControleBala>().DirecaoBala(1);
         }
         
     }

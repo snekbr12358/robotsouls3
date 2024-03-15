@@ -21,9 +21,8 @@ public class GerenciadorJogo : MonoBehaviour
     }
 
     public void IniciarJogo() 
-    { 
-        GameLigado = true;
-        Time.timeScale = 1;
+    {
+        SceneManager.LoadScene(0);
        
     }
 
@@ -92,5 +91,9 @@ public class GerenciadorJogo : MonoBehaviour
             GameLigado = false;
 
         }
+    }
+    public void FecharPause()
+    {
+        SceneManager.LoadScene(0);
     }
 }
