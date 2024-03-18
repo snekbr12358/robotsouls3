@@ -15,14 +15,14 @@ public class GerenciadorJogo : MonoBehaviour
     void Start()
     {
         //Pausa os scripts
-        GameLigado = false;
+        GameLigado = true;
         //Pausa Fisica do Jogo
-        Time.timeScale = 0;
+        Time.timeScale = 1;
     }
 
     public void IniciarJogo() 
     {
-        SceneManager.LoadScene(0);
+       SceneManager.LoadScene(0);
        
     }
 
