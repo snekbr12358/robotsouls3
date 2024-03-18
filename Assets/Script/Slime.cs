@@ -6,7 +6,7 @@ public class Slime : MonoBehaviour
 {
     Animator animator;
     private float velocidadeauto;
-    private SpriteRenderer ImagemSlime;
+    [SerializeField]private SpriteRenderer ImagemSlime;
     bool morreu = false;
 
     public int vida = 6;
@@ -16,7 +16,7 @@ public class Slime : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ImagemSlime = GetComponent<SpriteRenderer>();
+        //ImagemSlime = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         velocidadeauto = velocidade;
     }
@@ -51,7 +51,7 @@ public class Slime : MonoBehaviour
         if (vida <= 0)
         {
             morreu = true;
-            Destroy(gameObject, 1);
+            Destroy(gameObject, 0.7f);
             animator.SetBool("Morte", true);
             ImagemSlime.color = Color.white;
         }

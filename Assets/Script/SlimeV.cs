@@ -6,7 +6,7 @@ public class SlimeV : MonoBehaviour
 {
     Animator animator;
     private float velocidadeauto;
-    private SpriteRenderer ImagemSlimeV;
+    [SerializeField] private SpriteRenderer ImagemSlimeV;
     bool morreu = false;
 
     public int vida = 6;
@@ -16,7 +16,7 @@ public class SlimeV : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ImagemSlimeV = GetComponent<SpriteRenderer>();
+        //ImagemSlimeV = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         velocidadeauto = velocidade;
     }
