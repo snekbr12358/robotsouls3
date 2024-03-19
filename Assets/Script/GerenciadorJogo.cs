@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GerenciadorJogo : MonoBehaviour
 {
-    public AudioSource audioSource;
+    public GameObject audioListener;
 
     [SerializeField] private GameObject painelMenuInicial;
     [SerializeField] private GameObject painelOpcoes;
@@ -30,7 +30,8 @@ public class GerenciadorJogo : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
-            PauseMenu();
+        PauseMenu();
+
     }
     public bool EstadoDoJogo()
     {
@@ -56,7 +57,7 @@ public class GerenciadorJogo : MonoBehaviour
     //Reinicia o Jogo
     void Reiniciar()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
     public void AbrirOpcoes() 
     {
@@ -64,17 +65,19 @@ public class GerenciadorJogo : MonoBehaviour
     }
     public void FecharOpçoes()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
+    }
+   
+    public void Creditos()
+    {
+        SceneManager.LoadScene(4);
     }
     public void SairJogo()
     {
         Debug.Log("Sair do Jogo");
         Application.Quit();
     }
-    public void Creditos()
-    {
-        SceneManager.LoadScene(4);
-    }
+
     public void PauseMenu()
     {
         if (pauseMenu.gameObject.activeSelf)
@@ -82,18 +85,18 @@ public class GerenciadorJogo : MonoBehaviour
             pauseMenu.gameObject.SetActive(false);
             Time.timeScale = 1;
             GameLigado = true;
-            audioSource.Stop();
+            audioListener.SetActive(true);
         }
         else
         {
             pauseMenu.gameObject.SetActive(true);
             Time.timeScale = 0;
             GameLigado = false;
-
+            audioListener.SetActive(false);
         }
     }
     public void FecharPause()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }
