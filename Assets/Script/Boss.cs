@@ -16,6 +16,10 @@ public class Boss : MonoBehaviour
     public float velocidade = 0.05f;
     public float distInicial = 0f;
     public float distFinal = 0f;
+
+    [SerializeField] private bool paraFrente;
+    [SerializeField] private float multiplicador;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,26 +32,29 @@ public class Boss : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(velocidade);
         if(!morreu) 
-            Andar();
+        Andar();
     }
     void Andar()
     {
-        //mudar velocidade
+                                      
+        //Andar para frente
+        if (transform.position.x < distInicial)
+        {            
+            paraFrente = true;
+            velocidade *= -1;
+            ImagemBoss.flipX = true;
+        }
         //Andar para trás
         if (transform.position.x > distFinal)
         {
-            velocidade = velocidade * -1f;
+            paraFrente = false;
+            velocidade *= -1;
             ImagemBoss.flipX = false;
         }
-        //Andar para frente
-        if (transform.position.x < distInicial)
-        {
-            velocidade = velocidade * -1f;
-            ImagemBoss.flipX = true;
-        }
-        
-        transform.position = new Vector3(transform.position.x + velocidade , transform.position.y, transform.position.z);
+    
+        transform.position = new Vector3(transform.position.x + velocidade * Time.deltaTime * multiplicador, transform.position.y, transform.position.z);
     }
     public void LevarDano(int dano)
     {

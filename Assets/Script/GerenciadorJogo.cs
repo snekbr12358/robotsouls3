@@ -57,7 +57,7 @@ public class GerenciadorJogo : MonoBehaviour
     //Reinicia o Jogo
     void Reiniciar()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(5);
     }
     public void AbrirOpcoes() 
     {
