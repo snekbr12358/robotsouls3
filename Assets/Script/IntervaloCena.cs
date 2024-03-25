@@ -1,40 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
 public class IntervaloCena : MonoBehaviour
 {
+    public GameObject menu;
     public VideoPlayer videoPlayer;
-    public GameObject objectDesativado;
-    public float intervalo = 10f;
+    public float contador;
+    
 
     void Start()
     {
-        // Inicia a repetição da chamada ao método PlayVideo a cada 10 segundos
-        InvokeRepeating("PlayVideo", 0f, intervalo);
+        videoPlayer.loopPointReached += EndReached;
     }
 
-    void PlayVideo()
+    private void Update()
     {
-        // Verifica se o vídeo não está sendo reproduzido
-        if (!videoPlayer.isPlaying)
-        {
-            // Reinicia a reprodução do vídeo a partir do início
-            videoPlayer.Stop();
-            videoPlayer.Play();
+        if (contador >= 10 && !videoPlayer.gameObject.activeSelf) 
+        { 
+            menu.SetActive(false);
+            videoPlayer.gameObject.SetActive(true);
         }
-        else
-        {
-            // Se o vídeo está sendo reproduzido, desativa o GameObject
-            objectDesativado.SetActive(false);
-        }
+        contador += Time.deltaTime;
     }
 
-    void OnDestroy()
+    void EndReached(UnityEngine.Video.VideoPlayer vp)
     {
-        // Cancela a repetição ao destruir o objeto
-        CancelInvoke("PlayVideo");
+        menu.SetActive(true);
+        videoPlayer.gameObject.SetActive(false);
+        contador = 0;
     }
 }
