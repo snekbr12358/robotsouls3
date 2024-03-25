@@ -12,8 +12,7 @@ public class GerenciadorJogo : MonoBehaviour
     public bool GameLigado = false;
     public GameObject pauseMenu;
 
-    public float sceneTrocaIntervalo = 15f; // Intervalo de troca de cena em segundos
-    private float timer = 0f;
+
 
 
     // Start is called before the first frame update
@@ -34,18 +33,7 @@ public class GerenciadorJogo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Verifica se o jogador está na cena 0
-        if (SceneManager.GetActiveScene().buildIndex == 0)
-        {
-            timer += Time.deltaTime;
-
-            // Se o temporizador atingir o intervalo, muda para a próxima cena
-            if (timer >= sceneTrocaIntervalo)
-            {
-                TrocaProxCena();
-                timer = 0f; // Reseta o temporizador
-            }
-        }
+       
        
         if (Input.GetKeyDown(KeyCode.Escape))
         PauseMenu();      
@@ -117,13 +105,4 @@ public class GerenciadorJogo : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-    void TrocaProxCena()
-    {
-        // Obtém o índice da próxima cena
-        int nextSceneIndex = (SceneManager.GetActiveScene().buildIndex + 1) % SceneManager.sceneCountInBuildSettings;
-
-        // Carrega a próxima cena
-        SceneManager.LoadScene(nextSceneIndex);
-    }
-  
 }

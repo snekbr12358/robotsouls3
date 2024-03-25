@@ -23,7 +23,7 @@ public class RetornoScena : MonoBehaviour
         void RetornaScene0()
         {
             // Carrega a cena 0
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
     }
 }
