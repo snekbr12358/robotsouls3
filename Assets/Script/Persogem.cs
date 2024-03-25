@@ -36,7 +36,7 @@ public class Persogem : MonoBehaviour
 
     //barra de hp
     private bool pode_dano = true;
-    public Image barrahp;
+    public Image[] barrahp;
 
     //Moeda
     public int moedas = 0;
@@ -52,7 +52,7 @@ public class Persogem : MonoBehaviour
     void Start()
     {
         //Moeda_texto = GameObject.FindGameObjectWithTag("Moeda_texto_tag").GetComponent<Text>();
-        barrahp = GameObject.FindGameObjectWithTag("hp_barra").GetComponent<Image>();
+        //barrahp = GameObject.FindGameObjectWithTag("hp_barra").GetComponent<Image>();
         animator = GetComponent<Animator>();
         GJ = FindObjectOfType<GerenciadorJogo>();
         vidamax = vida;
@@ -243,8 +243,8 @@ public class Persogem : MonoBehaviour
     {
         //barrahp.rectTransform.sizeDelta = new Vector2(vida*105.4269f, 106.72f);
         // int vida_parabarra = vida * 35;
-        barrahp.fillAmount = (float)vida / vidamax;
-        
+        //barrahp.fillAmount = (float)vida / vidamax;
+        barrahp[vida].gameObject.SetActive(false);
     }
     void Morrer()
     {

@@ -5,7 +5,7 @@ using UnityEngine.Video;
 public class VideoController : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-    public string nextSceneName;
+    public int nextScene;
 
     void Start()
     {
@@ -19,6 +19,6 @@ public class VideoController : MonoBehaviour
 
     void LoadNextScene()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(nextScene);
     }
 }
