@@ -103,7 +103,2044 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: zerum fluido_0
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 6195
+        width: 129
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6e3e458fecfa343b0e3c1c8d3d37cb
+      internalID: -1023110882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_1
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 6195
+        width: 107
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc041b877ff7c74581686e720b42dcb
+      internalID: 774514389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_2
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 5280
+        width: 501
+        height: 919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527a8744cc258e54794638087543dcad
+      internalID: 1095313937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_3
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 6195
+        width: 98
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7472c04a6f72dcc46be5105c2694ba0a
+      internalID: -1323750959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_4
+      rect:
+        serializedVersion: 2
+        x: 8161
+        y: 5287
+        width: 555
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4de9fb6c3b3d64e82abab29cf110a1
+      internalID: 1283159629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_5
+      rect:
+        serializedVersion: 2
+        x: 9098
+        y: 5287
+        width: 540
+        height: 912
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7968fea7c97840e44870a0d52e2f33bd
+      internalID: 1111547233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_6
+      rect:
+        serializedVersion: 2
+        x: 10107
+        y: 6195
+        width: 115
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff022394d0d7df4aa86421b026615f3
+      internalID: -401285237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_7
+      rect:
+        serializedVersion: 2
+        x: 13487
+        y: 6195
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9cd8315b8b32144b91bc307718dbd4
+      internalID: 1604739830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_8
+      rect:
+        serializedVersion: 2
+        x: 14100
+        y: 5280
+        width: 511
+        height: 919
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d40f14625623004d9ba816702e9c934
+      internalID: 2028322695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 5287
+        width: 432
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24ccf717c1550b40a22e3b356e779b1
+      internalID: -43065412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_10
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 5280
+        width: 483
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7054ead6c17e6ff4b970b0281a6a5570
+      internalID: -267915871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_11
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 5280
+        width: 483
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133147a9494bfb148a00a7fb4e5c52c9
+      internalID: -1974066115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_12
+      rect:
+        serializedVersion: 2
+        x: 4140
+        y: 5287
+        width: 490
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d93698a203554a478abb072fdbe9481
+      internalID: 604978675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_13
+      rect:
+        serializedVersion: 2
+        x: 5077
+        y: 5287
+        width: 634
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68266e8468b9d84bbf12a8fc45d8c05
+      internalID: -1458899898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_14
+      rect:
+        serializedVersion: 2
+        x: 5985
+        y: 5287
+        width: 850
+        height: 872
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1492612170c479a4c947f876b6535a2c
+      internalID: 1847552813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_15
+      rect:
+        serializedVersion: 2
+        x: 6980
+        y: 5287
+        width: 814
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b652655ee1aa3234386b060076b3d440
+      internalID: 512589889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_16
+      rect:
+        serializedVersion: 2
+        x: 10150
+        y: 5287
+        width: 555
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f2dfc4183b61748bd3af0c12624f92
+      internalID: 88726660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_17
+      rect:
+        serializedVersion: 2
+        x: 10994
+        y: 5287
+        width: 792
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3355ce14aafd0b4469e9982e1fc537f6
+      internalID: -1912047822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_18
+      rect:
+        serializedVersion: 2
+        x: 12010
+        y: 5280
+        width: 778
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc2de2f93022fa408a1e299270494f9
+      internalID: -1483659453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_19
+      rect:
+        serializedVersion: 2
+        x: 12990
+        y: 5280
+        width: 799
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e616d09d6752da34ba0d4dadb14f80b5
+      internalID: 1668456404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_20
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 4228
+        width: 432
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e37322a0f17e1e4999a729fea1082b4
+      internalID: -167493862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_21
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 4228
+        width: 490
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43932a2c0084d324f926ce9d3adecf7a
+      internalID: -575699348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_22
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 4228
+        width: 482
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc62e4a9be5d6d942b73d538c01bea35
+      internalID: 423099268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_23
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 4228
+        width: 468
+        height: 885
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a681427ddea678340974d42b0bcdf7f6
+      internalID: -1936396281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_24
+      rect:
+        serializedVersion: 2
+        x: 4263
+        y: 4228
+        width: 482
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3243c7dd73c2168428f0fd8fd633728b
+      internalID: -897117465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_25
+      rect:
+        serializedVersion: 2
+        x: 5192
+        y: 4228
+        width: 641
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7152f317fb6794b4499e44281f350f51
+      internalID: -1446835039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_26
+      rect:
+        serializedVersion: 2
+        x: 5985
+        y: 4235
+        width: 858
+        height: 872
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc7f86bc2cccf84bb6b211f5c67023d
+      internalID: -567416570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_27
+      rect:
+        serializedVersion: 2
+        x: 6987
+        y: 4235
+        width: 814
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f416cd435583e40b545b656f53b32f
+      internalID: 1634716726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_28
+      rect:
+        serializedVersion: 2
+        x: 8169
+        y: 4228
+        width: 554
+        height: 911
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b507d0967135e5418075bd937e39e99
+      internalID: -1845284966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_29
+      rect:
+        serializedVersion: 2
+        x: 9106
+        y: 4228
+        width: 533
+        height: 915
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69638dfca24418149ae7511653c08d46
+      internalID: -1737199204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_30
+      rect:
+        serializedVersion: 2
+        x: 10158
+        y: 4228
+        width: 554
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71cd5edd10b820641954c8b750a326a4
+      internalID: 96259858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_31
+      rect:
+        serializedVersion: 2
+        x: 11001
+        y: 4228
+        width: 799
+        height: 857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd542eb1bc59122428614430aac95c47
+      internalID: -270738728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_32
+      rect:
+        serializedVersion: 2
+        x: 12017
+        y: 4228
+        width: 778
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f53f642cc9617a48b7360a3afc30787
+      internalID: -2089835638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_33
+      rect:
+        serializedVersion: 2
+        x: 12997
+        y: 4228
+        width: 800
+        height: 857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e52fe859cf3b2f4eb4ee14cf023965d
+      internalID: 1452989291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_34
+      rect:
+        serializedVersion: 2
+        x: 14107
+        y: 4220
+        width: 518
+        height: 930
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6210c5b3d06a8d4da1c109a0e4f3e1e
+      internalID: 1769485404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_35
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 3175
+        width: 432
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bb88fa139fea44fb2d898bd0ce3685
+      internalID: -718339830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_36
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 3175
+        width: 483
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e8fe283bc9807488823b84216ddef0
+      internalID: -1282833372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_37
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 3175
+        width: 482
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd1968a081fc204ba2ef620fa4e00c1
+      internalID: 812541019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_38
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 3175
+        width: 468
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5bfdd691bd2a14784beefcb9e8cf33
+      internalID: -55123989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_39
+      rect:
+        serializedVersion: 2
+        x: 4018
+        y: 3168
+        width: 627
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931bdc38c658a144cb604c54d6ded630
+      internalID: 203341144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_40
+      rect:
+        serializedVersion: 2
+        x: 4991
+        y: 3168
+        width: 713
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448692ccdee0f774db045020132643c3
+      internalID: 947978921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_41
+      rect:
+        serializedVersion: 2
+        x: 5956
+        y: 3168
+        width: 908
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1b7bc44e73319438f582f80486f082
+      internalID: -81719471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_42
+      rect:
+        serializedVersion: 2
+        x: 6958
+        y: 3168
+        width: 901
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2179e0fdb4b2f5943b9c0c53b7c0b4ad
+      internalID: 1186525693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_43
+      rect:
+        serializedVersion: 2
+        x: 8024
+        y: 3168
+        width: 707
+        height: 908
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d407df9207be4ef4c9e0711345ca098b
+      internalID: 1049430609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_44
+      rect:
+        serializedVersion: 2
+        x: 8969
+        y: 3162
+        width: 756
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0375d8e1c0d8c3244a6221d398dde5e3
+      internalID: -2118692799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_45
+      rect:
+        serializedVersion: 2
+        x: 9985
+        y: 3168
+        width: 720
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ddab79b669da44ba42d26fff14f9d3
+      internalID: 442500589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_46
+      rect:
+        serializedVersion: 2
+        x: 11015
+        y: 3168
+        width: 793
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eba4a79560109044878b6b40fd98c68
+      internalID: 322092991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_47
+      rect:
+        serializedVersion: 2
+        x: 12053
+        y: 3168
+        width: 771
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ce4824b2d490043b91fb8d5f4d5b2a
+      internalID: 1903402359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_48
+      rect:
+        serializedVersion: 2
+        x: 13019
+        y: 3175
+        width: 778
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba77bc6d2e00e34ea3c9bab6f22913c
+      internalID: -866165424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_49
+      rect:
+        serializedVersion: 2
+        x: 14128
+        y: 3168
+        width: 570
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b2c98ec5c4b064d98f21587611b13b
+      internalID: 1133761413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_50
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2116
+        width: 468
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c897fcfe6e4589f46a9a3987f8b7d823
+      internalID: -1931100021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_51
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 2116
+        width: 482
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf0aa316dc8040419f80e815790892b
+      internalID: -1842382894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_52
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 2123
+        width: 483
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390cc5125937b06438852dd629dec105
+      internalID: 201802551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_53
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 2108
+        width: 490
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d6ac14f3ab86242888c6b6a98cfa42
+      internalID: -192495301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_54
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 2108
+        width: 627
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c245037f211b764f8535ed2a2f6f65e
+      internalID: 1345582614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_55
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2116
+        width: 728
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c40fba8fb467f4e862694e44f57a38
+      internalID: -856018338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_56
+      rect:
+        serializedVersion: 2
+        x: 5963
+        y: 2116
+        width: 880
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38a95fafb36acc42b275b7b650dbcfb
+      internalID: -1546459811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_57
+      rect:
+        serializedVersion: 2
+        x: 6958
+        y: 2116
+        width: 886
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c503d2d5e8a664c8c1e4506c032507
+      internalID: -912913296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_58
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 2108
+        width: 583
+        height: 909
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de57c13c1ea700b4292ea7ef210dc119
+      internalID: -301596928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_59
+      rect:
+        serializedVersion: 2
+        x: 9048
+        y: 2108
+        width: 771
+        height: 909
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a99fb1f44ab2b74c96ea5af395d698f
+      internalID: 1646534640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_60
+      rect:
+        serializedVersion: 2
+        x: 10151
+        y: 2101
+        width: 525
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf64924a7d3b3043a203ece06c5e6f9
+      internalID: -1865099449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_61
+      rect:
+        serializedVersion: 2
+        x: 11015
+        y: 2108
+        width: 800
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f6f862d8ed7bc42bac3df0aef6c925
+      internalID: 702872952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_62
+      rect:
+        serializedVersion: 2
+        x: 11988
+        y: 2116
+        width: 764
+        height: 857
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33eae9a6f1d43f419b93164e6a2962d
+      internalID: -1936161730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_63
+      rect:
+        serializedVersion: 2
+        x: 13019
+        y: 2123
+        width: 756
+        height: 858
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2edcccc3eae17743a84517a3a9e9017
+      internalID: -1869790876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_64
+      rect:
+        serializedVersion: 2
+        x: 14136
+        y: 2108
+        width: 569
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7890d6b18a8451c4f9a89c9af827a52a
+      internalID: -2080100057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 681
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47510be4a90346479bffd830b7e35e2
+      internalID: -664665003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_66
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1056
+        width: 727
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0130e2b44b4411145a05038b70572379
+      internalID: 1297703290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_67
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1057
+        width: 735
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c59aabe3de3f34fa747466defe60fb
+      internalID: -1620526066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_68
+      rect:
+        serializedVersion: 2
+        x: 2987
+        y: 1049
+        width: 713
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22eff4b05b52b684b8af76a6580fb357
+      internalID: -30910803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_69
+      rect:
+        serializedVersion: 2
+        x: 3996
+        y: 1063
+        width: 735
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cfd2258985e7c4d9f8d3daf2d2a3e7
+      internalID: 421129959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_70
+      rect:
+        serializedVersion: 2
+        x: 4976
+        y: 1056
+        width: 800
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2a079a946e15345ad327bfec08a37a
+      internalID: -1072593853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_71
+      rect:
+        serializedVersion: 2
+        x: 5978
+        y: 1070
+        width: 843
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50dbd73ca4636f54da181174b7b10ebc
+      internalID: 1072890817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_72
+      rect:
+        serializedVersion: 2
+        x: 6965
+        y: 1056
+        width: 865
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b810af7671a71642b1785621139bed7
+      internalID: -445662398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_73
+      rect:
+        serializedVersion: 2
+        x: 7996
+        y: 1056
+        width: 749
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac2c0d48339aaa48a462bd3359bba11
+      internalID: -442564272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_74
+      rect:
+        serializedVersion: 2
+        x: 8983
+        y: 1056
+        width: 778
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cae535cb68d50c4386214cb0cfd474a
+      internalID: -282911216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_75
+      rect:
+        serializedVersion: 2
+        x: 9985
+        y: 1056
+        width: 749
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce0b3911c2ec764ab9e6faeb3134c1f
+      internalID: 1371990491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_76
+      rect:
+        serializedVersion: 2
+        x: 10986
+        y: 1049
+        width: 865
+        height: 807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60924d12b9bcc9f44bca8f68dd520158
+      internalID: -345175044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_77
+      rect:
+        serializedVersion: 2
+        x: 11981
+        y: 1060
+        width: 857
+        height: 796
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093bd549012fa96478014632ff628dfa
+      internalID: 1172711780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_78
+      rect:
+        serializedVersion: 2
+        x: 12975
+        y: 1056
+        width: 844
+        height: 828
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c5193c12f68ac4282e44f3550765c3
+      internalID: -1783566708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_79
+      rect:
+        serializedVersion: 2
+        x: 13963
+        y: 1056
+        width: 756
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07947bf4121b4d441bad33fd25939745
+      internalID: -506255058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_80
+      rect:
+        serializedVersion: 2
+        x: 14755
+        y: 1525
+        width: 4
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bbc4ea4b451db4983905cad35c113f
+      internalID: -90598270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 4
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e0ddf6c5d87a641a802fc4e84f9741
+      internalID: -295784902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_82
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 4
+        width: 706
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f48d4057d5119d41b471533dfd2c7e1
+      internalID: -334780041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_83
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 0
+        width: 756
+        height: 890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478097d9acb56a6479555f8763a8282c
+      internalID: 36855675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_84
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 0
+        width: 764
+        height: 890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2900a8f4e5755840890bc56669b14d0
+      internalID: 791938899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_85
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 0
+        width: 748
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b22dc60e7373a4b81583ff562509e0
+      internalID: -648425636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_86
+      rect:
+        serializedVersion: 2
+        x: 4090
+        y: 0
+        width: 742
+        height: 883
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ba63071f5eaf74cab02c2f7336e0ea
+      internalID: 1257774092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_87
+      rect:
+        serializedVersion: 2
+        x: 5034
+        y: 4
+        width: 807
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94442e398ea93aa4da34610ff1c49726
+      internalID: 296152347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_88
+      rect:
+        serializedVersion: 2
+        x: 5978
+        y: 11
+        width: 865
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef90f029a62ccc4dae8b4e75e1c9416
+      internalID: 244651679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_89
+      rect:
+        serializedVersion: 2
+        x: 6965
+        y: 4
+        width: 879
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef6795593c0a5a40997c65c26d0c2f4
+      internalID: -1968022987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_90
+      rect:
+        serializedVersion: 2
+        x: 8053
+        y: 0
+        width: 771
+        height: 904
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6908c14b27138df41b93eedc03c384e0
+      internalID: 657521241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_91
+      rect:
+        serializedVersion: 2
+        x: 9005
+        y: 0
+        width: 835
+        height: 905
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa361757be21ba4ea3ca754f2110fa2
+      internalID: 316077205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_92
+      rect:
+        serializedVersion: 2
+        x: 10006
+        y: 0
+        width: 793
+        height: 890
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54699db46b30af4389be553318913cf
+      internalID: -1571295498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_93
+      rect:
+        serializedVersion: 2
+        x: 10979
+        y: 4
+        width: 850
+        height: 749
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3fcc9b982f2d9468066ee83493ec63
+      internalID: -401502029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_94
+      rect:
+        serializedVersion: 2
+        x: 11967
+        y: 4
+        width: 850
+        height: 771
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2448b7376c33b8b4b80620b2bbe7ecbb
+      internalID: -253480192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_95
+      rect:
+        serializedVersion: 2
+        x: 12975
+        y: 0
+        width: 858
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30335eff1aa68a4c9886e757c821069
+      internalID: -2098703192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum fluido_96
+      rect:
+        serializedVersion: 2
+        x: 13992
+        y: 0
+        width: 767
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d895f88a9c25c2c4d958a356d0b17bfb
+      internalID: 1650393812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +2151,104 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      zerum fluido_0: -1023110882
+      zerum fluido_1: 774514389
+      zerum fluido_10: -267915871
+      zerum fluido_11: -1974066115
+      zerum fluido_12: 604978675
+      zerum fluido_13: -1458899898
+      zerum fluido_14: 1847552813
+      zerum fluido_15: 512589889
+      zerum fluido_16: 88726660
+      zerum fluido_17: -1912047822
+      zerum fluido_18: -1483659453
+      zerum fluido_19: 1668456404
+      zerum fluido_2: 1095313937
+      zerum fluido_20: -167493862
+      zerum fluido_21: -575699348
+      zerum fluido_22: 423099268
+      zerum fluido_23: -1936396281
+      zerum fluido_24: -897117465
+      zerum fluido_25: -1446835039
+      zerum fluido_26: -567416570
+      zerum fluido_27: 1634716726
+      zerum fluido_28: -1845284966
+      zerum fluido_29: -1737199204
+      zerum fluido_3: -1323750959
+      zerum fluido_30: 96259858
+      zerum fluido_31: -270738728
+      zerum fluido_32: -2089835638
+      zerum fluido_33: 1452989291
+      zerum fluido_34: 1769485404
+      zerum fluido_35: -718339830
+      zerum fluido_36: -1282833372
+      zerum fluido_37: 812541019
+      zerum fluido_38: -55123989
+      zerum fluido_39: 203341144
+      zerum fluido_4: 1283159629
+      zerum fluido_40: 947978921
+      zerum fluido_41: -81719471
+      zerum fluido_42: 1186525693
+      zerum fluido_43: 1049430609
+      zerum fluido_44: -2118692799
+      zerum fluido_45: 442500589
+      zerum fluido_46: 322092991
+      zerum fluido_47: 1903402359
+      zerum fluido_48: -866165424
+      zerum fluido_49: 1133761413
+      zerum fluido_5: 1111547233
+      zerum fluido_50: -1931100021
+      zerum fluido_51: -1842382894
+      zerum fluido_52: 201802551
+      zerum fluido_53: -192495301
+      zerum fluido_54: 1345582614
+      zerum fluido_55: -856018338
+      zerum fluido_56: -1546459811
+      zerum fluido_57: -912913296
+      zerum fluido_58: -301596928
+      zerum fluido_59: 1646534640
+      zerum fluido_6: -401285237
+      zerum fluido_60: -1865099449
+      zerum fluido_61: 702872952
+      zerum fluido_62: -1936161730
+      zerum fluido_63: -1869790876
+      zerum fluido_64: -2080100057
+      zerum fluido_65: -664665003
+      zerum fluido_66: 1297703290
+      zerum fluido_67: -1620526066
+      zerum fluido_68: -30910803
+      zerum fluido_69: 421129959
+      zerum fluido_7: 1604739830
+      zerum fluido_70: -1072593853
+      zerum fluido_71: 1072890817
+      zerum fluido_72: -445662398
+      zerum fluido_73: -442564272
+      zerum fluido_74: -282911216
+      zerum fluido_75: 1371990491
+      zerum fluido_76: -345175044
+      zerum fluido_77: 1172711780
+      zerum fluido_78: -1783566708
+      zerum fluido_79: -506255058
+      zerum fluido_8: 2028322695
+      zerum fluido_80: -90598270
+      zerum fluido_81: -295784902
+      zerum fluido_82: -334780041
+      zerum fluido_83: 36855675
+      zerum fluido_84: 791938899
+      zerum fluido_85: -648425636
+      zerum fluido_86: 1257774092
+      zerum fluido_87: 296152347
+      zerum fluido_88: 244651679
+      zerum fluido_89: -1968022987
+      zerum fluido_9: -43065412
+      zerum fluido_90: 657521241
+      zerum fluido_91: 316077205
+      zerum fluido_92: -1571295498
+      zerum fluido_93: -401502029
+      zerum fluido_94: -253480192
+      zerum fluido_95: -2098703192
+      zerum fluido_96: 1650393812
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
