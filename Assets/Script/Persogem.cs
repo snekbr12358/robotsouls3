@@ -132,12 +132,10 @@ public class Persogem : MonoBehaviour
             pode_pular = true;
             meuTempoPulo = 0; 
 
-        }
-        if(gatilho.gameObject.tag == "Moeda")
+        }   
+        if(gatilho.gameObject.tag == "Parede")
         {
-           Destroy(gatilho.gameObject);
-            moedas++;
-            Moeda_texto.text = moedas.ToString();
+
         }
     }
     
