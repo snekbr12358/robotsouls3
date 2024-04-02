@@ -77,7 +77,7 @@ public class Persogem : MonoBehaviour
         if (Mathf.Abs(velocidade)> 0)
         {
             idle_icon.SetActive(false);
-
+            
             animator.SetBool("Andar", true);
         }
         else
@@ -132,11 +132,7 @@ public class Persogem : MonoBehaviour
             pode_pular = true;
             meuTempoPulo = 0; 
 
-        }   
-        if(gatilho.gameObject.tag == "Parede")
-        {
-
-        }
+        }         
     }
     
     //Tempo de Pulo
