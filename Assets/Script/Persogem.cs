@@ -9,10 +9,11 @@ using Unity.VisualScripting;
 public class Persogem : MonoBehaviour
 {
     public Rigidbody2D Corpo;
+    public float forcapulo;
     public float velocidade;
+    public float speed;
     public int qtd_pulo = 0;
     private float meuTempoPulo = 0;
-    public LayerMask groundLayer;
 
     public float velocidadeBala;
 
@@ -72,9 +73,9 @@ public class Persogem : MonoBehaviour
     }
     void Mover()
     {
-        velocidade = Input.GetAxis("Horizontal") * 8;
+        velocidade = Input.GetAxis("Horizontal") * speed;
         Corpo.velocity = new Vector2(velocidade, Corpo.velocity.y);
-        if (Mathf.Abs(velocidade)> 0)
+        if (Mathf.Abs(velocidade) > 0)
         {
             idle_icon.SetActive(false);
             
@@ -83,7 +84,7 @@ public class Persogem : MonoBehaviour
         else
         {
             idle_icon.SetActive(true);
-
+            
             animator.SetBool("Andar", false);
         } 
     }
@@ -104,6 +105,7 @@ public class Persogem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && pode_pular == true)
         {
+
             idle_icon.SetActive(false); 
             animator.SetBool("Pula", true);
             pode_pular = false;
@@ -119,14 +121,14 @@ public class Persogem : MonoBehaviour
     void AcaoPulo()
     {
         //Corpo.velocity = new Vector2(velocidade, 0);
-        Corpo.AddForce(Vector2.up * 400f);
+        Corpo.AddForce(Vector2.up * forcapulo);
     }
     //Gatilhos
     void OnTriggerEnter2D(Collider2D gatilho)
     {
         if (gatilho.gameObject.tag == "chao")
         {
-            idle_icon.SetActive(false);
+            idle_icon.SetActive(true);
             animator.SetBool("Pula", false);
             qtd_pulo = 0;
             pode_pular = true;
@@ -224,7 +226,6 @@ public class Persogem : MonoBehaviour
     {
         meuTempoDano += Time.deltaTime;
         if (meuTempoDano > 0.25f)
-
         {
             pode_dano = true;
             meuTempoDano = 0;
