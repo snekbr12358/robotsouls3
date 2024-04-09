@@ -15,9 +15,12 @@ public class ControleBala : MonoBehaviour
 
     Rigidbody2D rb;
 
+    public Animator animator;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
         rb.velocity = Vector2.right * velocidade_bala * direcao;
         Destroy(gameObject, 0.7f);
     }
@@ -82,16 +85,36 @@ public class ControleBala : MonoBehaviour
                 boss.LevarDano(dano);
             }
             //ESTE OBJETO (BALA)
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
         }
-        if (colisao.gameObject.tag == "Caixa")
+        //if (colisao.gameObject.tag == "Caixa")
+        //{
+        //    Caixa caixa = colisao.gameObject.GetComponent<Caixa>();
+        //    if (caixa != null)
+        //    {
+        //        caixa.LevarDano(dano);
+        //    }
+        //}
+        
+        if (colisao.gameObject.tag == "chao")
         {
-            Caixa caixa = colisao.gameObject.GetComponent<Caixa>();
-            if (caixa != null)
-            {
-                caixa.LevarDano(dano);
-            }
+            Debug.Log("chao");
+            animator.SetTrigger("Destroy");
         }
+
+        if (colisao.gameObject) 
+        {
+            animator.SetTrigger("Destroy");
+        }
+
+        rb.velocity = Vector3.zero;
+
+
+    }
+
+    public void destruir()
+    {
         Destroy(this.gameObject);
     }
+
 }
