@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
-    public Caixa caixa;
     public AlavancaController alavanca;
 
     Animator animator;
