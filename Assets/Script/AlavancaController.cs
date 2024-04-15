@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class AlavancaController : MonoBehaviour
 {
     public Gate gateController;
 
-
-    public Caixa caixa;
-    public int dano;
+    public VideoPlayer videoPlayer;
+    public int nextScene;
 
     Animator animator;
 
     public GameObject aboboda;
-    public GameObject teladevitoria;
+
     public bool Ativada;
 
     // Start is called before the first frame update
@@ -50,6 +50,10 @@ public class AlavancaController : MonoBehaviour
                     else
                     {
                         gateController.ShowGate();
+                    }
+                    if (videoPlayer != null)
+                    {
+                        videoPlayer.Play();
                     }
                 }
             }

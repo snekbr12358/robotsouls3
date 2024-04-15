@@ -29,7 +29,7 @@ public class VidaBoss : MonoBehaviour
         vida -= dano;   
         if (vida <= 0)
         {
-            Debug.Log("Dano");
+            
         }       
     }
 }
