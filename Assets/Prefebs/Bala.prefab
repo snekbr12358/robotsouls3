@@ -175,7 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocidade_bala: 15
   dano: 2
-  animator: {fileID: 0}
+  animator: {fileID: 5477966526714685196}
 --- !u!82 &417265815943766974
 AudioSource:
   m_ObjectHideFlags: 0

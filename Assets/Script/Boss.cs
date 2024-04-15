@@ -19,6 +19,9 @@ public class Boss : MonoBehaviour
     [SerializeField] private bool paraFrente;
     [SerializeField] private float multiplicador;
 
+    public VidaBoss lampada1;
+    public VidaBoss lampada2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,8 +35,10 @@ public class Boss : MonoBehaviour
     void Update()
     {
         Debug.Log(velocidade);
-        if(!morreu) 
-        Andar();
+        if (!morreu) { 
+            Andar();
+            VerificarVidaLampadas();
+        }
     }
     void Andar()
     {
@@ -43,41 +48,41 @@ public class Boss : MonoBehaviour
         {            
             paraFrente = true;
             velocidade *= -1;
-            ImagemBoss.flipX = true;
+            Vector3 newScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+            transform.localScale = newScale;
+            //ImagemBoss.flipX = true;
         }
         //Andar para trás
         if (transform.position.x > distFinal)
         {
             paraFrente = false;
             velocidade *= -1;
-            ImagemBoss.flipX = false;
+            Vector3 newScale = new Vector3(transform.localScale.x * -1, transform.localScale.y, transform.localScale.z);
+            transform.localScale = newScale; 
+            //ImagemBoss.flipX = false;
         }
     
         transform.position = new Vector3(transform.position.x + velocidade * Time.deltaTime * multiplicador, transform.position.y, transform.position.z);
     }
-    public void LevarDano(int dano)
+
+    void VerificarVidaLampadas() 
     {
-        if (!morreu) 
-        { 
-            vida -= dano;
-            StartCoroutine("Vermelhinho");
-            if (vida <= 0)
-            {
-                morreu = true;
-                Destroy(gameObject, 1f);
-                animator.SetBool("Morte", true);
-                ImagemBoss.color = Color.white;
-                alavanca.DesativarEscudo();
-                
-            }
+        if (lampada1.vida <= 0 && lampada2.vida <= 0) 
+        {
+            morreu = true;
+            Destroy(gameObject, 1f);
+            animator.SetBool("Morte", true);
+            ImagemBoss.color = Color.white;
+            alavanca.DesativarEscudo();
         }
     }
 
-    IEnumerator Vermelhinho()
-    {
-        ImagemBoss.color = Color.red;
-        yield return new WaitForSeconds(0.5f);
-        ImagemBoss.color = Color.white;
-    }
+
+    //IEnumerator Vermelhinho()
+    //{
+    //    ImagemBoss.color = Color.red;
+    //    yield return new WaitForSeconds(0.5f);
+    //    ImagemBoss.color = Color.white;
+    //}
 
 }
