@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: tileset para rs - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 534.6666
+        width: 266.66666
+        height: 267.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577dca55345b98a488408e3a66442b33
+      internalID: -1702112900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset para rs - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 534.6666
+        width: 266.66666
+        height: 267.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7671831f9a397d545b3dcaa68ef81934
+      internalID: 335046075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset para rs - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 534.6666
+        width: 266.66666
+        height: 267.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f64199da84bae14aaa71496201df492
+      internalID: 372981743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset para rs - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267.66666
+        width: 266.66666
+        height: 267.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf7e2cdffdb92d4c9e9aa1850a9e256
+      internalID: 1393658716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset para rs - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 267.66666
+        width: 266.66666
+        height: 267.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74507c761a8e99c4995c98bcca1533b2
+      internalID: 1219068867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset para rs - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 267.66666
+        width: 266.66666
+        height: 267.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb50c219abdef2c4b924d2c977db3c94
+      internalID: 316561317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset para rs - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.6666565
+        width: 266.66666
+        height: 267.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46311534e626e5b4e90cb2e6ef99bc16
+      internalID: 191547970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset para rs - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0.6666565
+        width: 266.66666
+        height: 267.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721846839eae7b94db844aa1959c8af5
+      internalID: 1420751666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset para rs - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 0.6666565
+        width: 266.66666
+        height: 267.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df6a3a55ef326543b4203057055eae2
+      internalID: 1959650754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +308,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tileset para rs - Copy_0: -1702112900
+      tileset para rs - Copy_1: 335046075
+      tileset para rs - Copy_2: 372981743
+      tileset para rs - Copy_3: 1393658716
+      tileset para rs - Copy_4: 1219068867
+      tileset para rs - Copy_5: 316561317
+      tileset para rs - Copy_6: 191547970
+      tileset para rs - Copy_7: 1420751666
+      tileset para rs - Copy_8: 1959650754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

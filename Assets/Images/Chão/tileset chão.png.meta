@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,196 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "tileset ch\xE3o_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 533.3334
+        width: 266.66666
+        height: 266.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6837f414cd8a4484f8173ba0278ea03e
+      internalID: -53881645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset ch\xE3o_1"
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 533.3334
+        width: 266.66666
+        height: 266.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87f7566caafd5d46a5b25c8613ab935
+      internalID: -638339497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset ch\xE3o_2"
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 533.3334
+        width: 266.66666
+        height: 266.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecba4d46b45fb0846b5c6681912cd674
+      internalID: -2079808774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset ch\xE3o_3"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 267.33334
+        width: 266.66666
+        height: 266.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc02704424583a4f9ee2baddc46cfb4
+      internalID: -54638542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset ch\xE3o_4"
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 267.33334
+        width: 266.66666
+        height: 266.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92379fa72ae2a648a81384a476e138d
+      internalID: 1174406351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset ch\xE3o_5"
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 267.33334
+        width: 266.66666
+        height: 266.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ce38f292fbf8343b15c09f19649ae5
+      internalID: 1863112322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset ch\xE3o_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.3333435
+        width: 266.66666
+        height: 266.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21a4dac7d562f544801395b055c643e
+      internalID: 392314917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset ch\xE3o_7"
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1.3333435
+        width: 266.66666
+        height: 266.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf30800555735449b4282b8bb3161c9
+      internalID: 291383645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "tileset ch\xE3o_8"
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1.3333435
+        width: 266.66666
+        height: 266.66666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f7cf344713ed043a10c72381251d13
+      internalID: -1480171878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +321,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "tileset ch\xE3o_0": -53881645
+      "tileset ch\xE3o_1": -638339497
+      "tileset ch\xE3o_2": -2079808774
+      "tileset ch\xE3o_3": -54638542
+      "tileset ch\xE3o_4": 1174406351
+      "tileset ch\xE3o_5": 1863112322
+      "tileset ch\xE3o_6": 392314917
+      "tileset ch\xE3o_7": 291383645
+      "tileset ch\xE3o_8": -1480171878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
