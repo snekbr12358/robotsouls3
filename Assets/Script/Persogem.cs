@@ -44,8 +44,8 @@ public class Persogem : MonoBehaviour
     private Text Moeda_texto;
 
     public GerenciadorJogo GJ;
- 
-    
+
+    bool direita;
 
 
 
@@ -77,14 +77,16 @@ public class Persogem : MonoBehaviour
         Corpo.velocity = new Vector2(velocidade, Corpo.velocity.y);
         if (Mathf.Abs(velocidade) > 0)
         {
+            
             idle_icon.SetActive(false);
             
             animator.SetBool("Andar", true);
+            animator.SetFloat("eixoh", velocidade);
         }
         else
         {
             idle_icon.SetActive(true);
-            
+            animator.SetFloat("eixoh", velocidade);
             animator.SetBool("Andar", false);
         } 
     }
@@ -92,13 +94,13 @@ public class Persogem : MonoBehaviour
     {
         if(velocidade > 0)
         {
-           
-            ImagemPersonagem.flipX = false;
+            direita = false;
+            //ImagemPersonagem.flipX = false;
         }
         if(velocidade < 0)
         {
-           
-            ImagemPersonagem.flipX = true;
+            direita = true;
+            //ImagemPersonagem.flipX = true;
         }
     }
     void Pular()
@@ -194,7 +196,7 @@ public class Persogem : MonoBehaviour
     void Disparor()
     {
         Vector3 pontoDisparo = Vector3.zero;
-        if (ImagemPersonagem.flipX)
+        if (direita)
         {
             pontoDisparo = new Vector3(
                 transform.position.x - 1f,
