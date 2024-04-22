@@ -74,19 +74,22 @@ public class Persogem : MonoBehaviour
     void Mover()
     {
         velocidade = Input.GetAxis("Horizontal") * speed;
+
         Corpo.velocity = new Vector2(velocidade, Corpo.velocity.y);
+
+        if (Mathf.Abs(velocidade) > 0.3f)
+        {
+            animator.SetFloat("eixoh", velocidade);
+        }
+
         if (Mathf.Abs(velocidade) > 0)
         {
-            
             idle_icon.SetActive(false);
-            
-            animator.SetBool("Andar", true);
-            animator.SetFloat("eixoh", velocidade);
+            animator.SetBool("Andar", true);   
         }
         else
         {
             idle_icon.SetActive(true);
-            animator.SetFloat("eixoh", velocidade);
             animator.SetBool("Andar", false);
         } 
     }
