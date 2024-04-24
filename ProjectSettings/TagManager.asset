@@ -17,6 +17,7 @@ TagManager:
   - Moeda_texto_tag
   - Portao
   - Parede
+  - Canhao
   layers:
   - Default
   - TransparentFX

@@ -5,9 +5,14 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Drawing;
 using Unity.VisualScripting;
+using UnityEditor.Animations;
 
 public class Persogem : MonoBehaviour
 {
+    public RuntimeAnimatorController animatorCanhaoPrefab;
+
+    public GameObject iconeCanhao;
+
     public Rigidbody2D Corpo;
     public float forcapulo;
     public float velocidade;
@@ -184,6 +189,13 @@ public class Persogem : MonoBehaviour
                 SceneManager.LoadScene(5);
             }
         }
+        if (colisao.gameObject.tag == "Canhao") 
+        {
+
+            animator.runtimeAnimatorController = animatorCanhaoPrefab;
+            colisao.gameObject.SetActive(false);
+            StartCoroutine(AparecerDesaparecer(3, iconeCanhao));
+        }
     }
     //Atira Balas
     void Atirar()
@@ -218,8 +230,15 @@ public class Persogem : MonoBehaviour
         }
         
     }
-    
-   
+
+
+    IEnumerator AparecerDesaparecer(float qtd, GameObject go) 
+    { 
+        go.SetActive(true);
+        yield return new WaitForSeconds(qtd);
+        go.SetActive(false);
+    }
+
     void Dano()
     {
         if (pode_dano == false)
