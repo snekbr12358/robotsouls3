@@ -22,8 +22,7 @@ public class Persogem : MonoBehaviour
     public SpriteRenderer ImagemPersonagem;
     //Componet Bala
     public GameObject Bala;
-    private float meuTempoTiro;
-    private bool pode_atira;
+
 
     //Conponet Icon
     public GameObject idle_icon;
@@ -47,6 +46,8 @@ public class Persogem : MonoBehaviour
     public GerenciadorJogo GJ;
 
     bool direita;
+
+    bool SemArma = true;
 
 
 
@@ -140,7 +141,12 @@ public class Persogem : MonoBehaviour
             pode_pular = true;
             meuTempoPulo = 0; 
 
-        }         
+        }    
+        if (gatilho.gameObject.tag == "Canhao")
+        {
+            SemArma = false;
+           
+        }
     }
     
     //Tempo de Pulo
@@ -187,7 +193,7 @@ public class Persogem : MonoBehaviour
         }
         if (colisao.gameObject.tag == "Canhao") 
         {
-
+            SemArma = false;
             animator.runtimeAnimatorController = animatorCanhaoPrefab;
             colisao.gameObject.SetActive(false);
             StartCoroutine(AparecerDesaparecer(3, iconeCanhao));
@@ -196,7 +202,7 @@ public class Persogem : MonoBehaviour
     //Atira Balas
     void Atirar()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.X) && !SemArma)
         {           
             animator.SetTrigger("Ataque");
            //Instantiate(Bala, this.transform.position, this.transform.rotation);
