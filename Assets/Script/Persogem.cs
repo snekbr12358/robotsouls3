@@ -1,11 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using System.Drawing;
-using Unity.VisualScripting;
-using UnityEditor.Animations;
 
 public class Persogem : MonoBehaviour
 {
