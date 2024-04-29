@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -49,7 +50,10 @@ public class Persogem : MonoBehaviour
 
     bool SemArma = true;
 
+    CinemachineVirtualCamera cameraVirtualPlayer;
 
+    float tempoIdle;
+    [SerializeField]float contadorIdle;
 
     // Start is called before the first frame update
     void Start()
@@ -58,6 +62,7 @@ public class Persogem : MonoBehaviour
         //barrahp = GameObject.FindGameObjectWithTag("hp_barra").GetComponent<Image>();
         animator = GetComponent<Animator>();
         GJ = FindObjectOfType<GerenciadorJogo>();
+        cameraVirtualPlayer = FindObjectOfType<CinemachineVirtualCamera>();
         vidamax = vida;
     }
 
@@ -71,6 +76,21 @@ public class Persogem : MonoBehaviour
             Pular();
             Atirar();
             Dano();
+            Debug.Log("Player!:"+Corpo.velocity.magnitude);
+            if (Corpo.velocity.magnitude <= 0)
+            {
+                contadorIdle += Time.deltaTime;
+                if (contadorIdle > 5)
+                {
+                    contadorIdle = 0;
+                    idle_icon.SetActive(true);
+                }
+            }
+            else 
+            {
+                contadorIdle = 0;
+                idle_icon.SetActive(false);
+            }
         }
     }
     void Mover()
@@ -86,12 +106,10 @@ public class Persogem : MonoBehaviour
 
         if (Mathf.Abs(velocidade) > 0)
         {
-            idle_icon.SetActive(false);
             animator.SetBool("Andar", true);   
         }
         else
         {
-            idle_icon.SetActive(true);
             animator.SetBool("Andar", false);
         } 
     }
@@ -112,8 +130,6 @@ public class Persogem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && pode_pular == true)
         {
-
-            idle_icon.SetActive(false); 
             animator.SetBool("Pula", true);
             pode_pular = false;
             qtd_pulo++;
@@ -135,7 +151,6 @@ public class Persogem : MonoBehaviour
     {
         if (gatilho.gameObject.tag == "chao")
         {
-            idle_icon.SetActive(true);
             animator.SetBool("Pula", false);
             qtd_pulo = 0;
             pode_pular = true;
@@ -168,6 +183,7 @@ public class Persogem : MonoBehaviour
         {
             if (pode_dano == true)
             {
+                StartCoroutine("CameraShake");
                 vida--;
                 Perderhp();
                 pode_dano = false;
@@ -248,6 +264,16 @@ public class Persogem : MonoBehaviour
             temporizadorDano();
         }
     }
+
+    IEnumerator CameraShake() 
+    {
+        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = 9;
+        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 9DD;
+        yield return new WaitForSeconds(0.5f);
+        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = 0;
+        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 0;
+    }
+
     void temporizadorDano()
     {
         meuTempoDano += Time.deltaTime;

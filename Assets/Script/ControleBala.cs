@@ -22,7 +22,7 @@ public class ControleBala : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         rb.velocity = Vector2.right * velocidade_bala * direcao;
-        Destroy(gameObject, 0.7f);
+        Destroy(gameObject, 1.2f);
     }
 
     // Update is called once per frame
