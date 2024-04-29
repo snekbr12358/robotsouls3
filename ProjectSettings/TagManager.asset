@@ -18,6 +18,7 @@ TagManager:
   - Portao
   - Parede
   - Canhao
+  - Item
   layers:
   - Default
   - TransparentFX

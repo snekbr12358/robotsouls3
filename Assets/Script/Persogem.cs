@@ -55,9 +55,13 @@ public class Persogem : MonoBehaviour
     float tempoIdle;
     [SerializeField]float contadorIdle;
 
+    public ColetarItem coletorDeItens;
+
     // Start is called before the first frame update
     void Start()
     {
+        coletorDeItens = GetComponent<ColetarItem>();
+
         //Moeda_texto = GameObject.FindGameObjectWithTag("Moeda_texto_tag").GetComponent<Text>();
         //barrahp = GameObject.FindGameObjectWithTag("hp_barra").GetComponent<Image>();
         animator = GetComponent<Animator>();
@@ -213,6 +217,14 @@ public class Persogem : MonoBehaviour
             animator.runtimeAnimatorController = animatorCanhaoPrefab;
             colisao.gameObject.SetActive(false);
             StartCoroutine(AparecerDesaparecer(3, iconeCanhao));
+        }
+        if (colisao.gameObject.tag == "Item")
+        {
+            if(vida < 3)
+                vida++;
+            Destroy(colisao.gameObject);
+
+            barrahp[vida-1].gameObject.SetActive(true);
         }
     }
     //Atira Balas
