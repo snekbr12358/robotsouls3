@@ -279,8 +279,8 @@ public class Persogem : MonoBehaviour
 
     IEnumerator CameraShake() 
     {
-        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = 9;
-        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 9;
+        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = 3;
+        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 3;
         yield return new WaitForSeconds(0.5f);
         cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = 0;
         cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 0;
