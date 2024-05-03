@@ -1,0 +1,2107 @@
+fileFormatVersion: 2
+guid: 26f1edb09b4af2344bcc2849fff73cc7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zerum andando_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5640
+        width: 620
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7d6b6b7fbf7ac4a8ebc1fb9e3bf649
+      internalID: -100779126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_1
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 5640
+        width: 527
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a351aa2d59ddbde46bb0a0415287ff51
+      internalID: 1171421452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_2
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 5636
+        width: 510
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5193f5b0565c1bf4caf55caaf8476a1f
+      internalID: 1662854055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_3
+      rect:
+        serializedVersion: 2
+        x: 3071
+        y: 5638
+        width: 469
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5fd5c9d717f35b44994606ce0eea31f
+      internalID: -1222545298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_4
+      rect:
+        serializedVersion: 2
+        x: 4064
+        y: 5636
+        width: 469
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd187169ee98a04ab7e6b9c82889fc6
+      internalID: 384179820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_5
+      rect:
+        serializedVersion: 2
+        x: 5152
+        y: 5639
+        width: 418
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e4361c796f188438d8af393ee8d2c5
+      internalID: -793889682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_6
+      rect:
+        serializedVersion: 2
+        x: 6109
+        y: 5590
+        width: 502
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61321104c370c3c409d286e83087f6f7
+      internalID: -1050147807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_7
+      rect:
+        serializedVersion: 2
+        x: 6938
+        y: 5594
+        width: 783
+        height: 842
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce651eaad72275941ac69fa00b98d4e0
+      internalID: 445964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_8
+      rect:
+        serializedVersion: 2
+        x: 7951
+        y: 5592
+        width: 752
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f58bd4e7191dd40bca7564c1396dba
+      internalID: -67816431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_9
+      rect:
+        serializedVersion: 2
+        x: 8947
+        y: 5596
+        width: 769
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765c8df3fa079be4eaaa41330a833ad9
+      internalID: -1691783166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_10
+      rect:
+        serializedVersion: 2
+        x: 10058
+        y: 5599
+        width: 502
+        height: 877
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c190a912ea9e945b004c8413698fda
+      internalID: 2100804849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_11
+      rect:
+        serializedVersion: 2
+        x: 11090
+        y: 5596
+        width: 522
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e619541647fb934c82cbb10ee0f2659
+      internalID: -135898971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_12
+      rect:
+        serializedVersion: 2
+        x: 12044
+        y: 5597
+        width: 509
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd82923848f05c64f90be061e8196eb5
+      internalID: 1519553998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_13
+      rect:
+        serializedVersion: 2
+        x: 12932
+        y: 5602
+        width: 797
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca4fc496c554304ab68952275eb0f3a
+      internalID: -1032143329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_14
+      rect:
+        serializedVersion: 2
+        x: 13890
+        y: 5601
+        width: 839
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc7fcd4d8ae45242becb205129f2d48
+      internalID: -1442321023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 4241
+        width: 838
+        height: 855
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31190e058d25e6f40a4bd260bbf08c9e
+      internalID: -973243684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_16
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 4242
+        width: 797
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071fea84d4b7f154fac709e5893452bd
+      internalID: 812483046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_17
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 4237
+        width: 508
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23eb953a3e51ac4488084b0ad51fd1e1
+      internalID: -1880305308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_18
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 4236
+        width: 522
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858d7830a6505b346b178cdb994a8909
+      internalID: 1111749429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_19
+      rect:
+        serializedVersion: 2
+        x: 4217
+        y: 4239
+        width: 502
+        height: 877
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdaa028b98ff327448b40f8da86869c2
+      internalID: -212443605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_20
+      rect:
+        serializedVersion: 2
+        x: 5061
+        y: 4236
+        width: 770
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1230bf7c56462024195d9c1b5f8108ea
+      internalID: -616365936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_21
+      rect:
+        serializedVersion: 2
+        x: 6075
+        y: 4232
+        width: 751
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d7d7788baccca4dad75abd9e2efea2
+      internalID: -1492213559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_22
+      rect:
+        serializedVersion: 2
+        x: 7056
+        y: 4234
+        width: 783
+        height: 842
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cc8ed070448164aac786e1ce1d6281
+      internalID: -529929548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_23
+      rect:
+        serializedVersion: 2
+        x: 8166
+        y: 4230
+        width: 502
+        height: 913
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b729457fb37444a41aa0f87dd24c6df2
+      internalID: 104433084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_24
+      rect:
+        serializedVersion: 2
+        x: 9207
+        y: 4279
+        width: 418
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6982bd15915fd934b8c8b7d2c19d685c
+      internalID: 2143293836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_25
+      rect:
+        serializedVersion: 2
+        x: 10245
+        y: 4276
+        width: 468
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83335fac2e15f4429b9b0fe023e99a4
+      internalID: -1267231788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_26
+      rect:
+        serializedVersion: 2
+        x: 11238
+        y: 4278
+        width: 469
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523f91611a9a2f645bc93577d40d6344
+      internalID: 1341181756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_27
+      rect:
+        serializedVersion: 2
+        x: 12172
+        y: 4276
+        width: 511
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2adfbc20e380ff1429e60252a6053f50
+      internalID: -1818723068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_28
+      rect:
+        serializedVersion: 2
+        x: 13220
+        y: 4280
+        width: 527
+        height: 868
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a07d8a3ee27a84eae86c610c791493
+      internalID: -33075219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_29
+      rect:
+        serializedVersion: 2
+        x: 14156
+        y: 4280
+        width: 621
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4039154ad89f144bd228b653d341b9
+      internalID: -486367530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3177
+        width: 878
+        height: 818
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517c8eb6bcc59d345a746018aab4008d
+      internalID: -2028656159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_31
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 3175
+        width: 845
+        height: 851
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555b4aa7ecc62bf4b841f843bf37ef4f
+      internalID: 1494615107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_32
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 3174
+        width: 640
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dccd21a6f70284f80cb9e09a37f7e4
+      internalID: 1595703700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_33
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 3173
+        width: 582
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06bc588f66e8e847b8a804f019aa7c7
+      internalID: -1589606497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_34
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 3178
+        width: 512
+        height: 878
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d126631ad856f364fab5de9d8d184dd7
+      internalID: -2089860969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_35
+      rect:
+        serializedVersion: 2
+        x: 5075
+        y: 3178
+        width: 781
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fa6f9fa7d7e274d9a68b324aff94fe
+      internalID: 1412811590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_36
+      rect:
+        serializedVersion: 2
+        x: 6081
+        y: 3173
+        width: 786
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f52aa078d9228943ad0aa79c32d8078
+      internalID: -1373111237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_37
+      rect:
+        serializedVersion: 2
+        x: 7077
+        y: 3185
+        width: 766
+        height: 843
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f89dbc1ddf60d4f9fd153f20d7dbd0
+      internalID: 1539768259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_38
+      rect:
+        serializedVersion: 2
+        x: 8187
+        y: 3176
+        width: 576
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c59c0e0a577864ebaaf8a42f201ba2
+      internalID: -1774385978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_39
+      rect:
+        serializedVersion: 2
+        x: 9140
+        y: 3222
+        width: 422
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84654727114469f4ead700e82a7e91a3
+      internalID: 1979739629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_40
+      rect:
+        serializedVersion: 2
+        x: 10098
+        y: 3225
+        width: 468
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f366b82e5d8dd4db6249f8c86adb8f
+      internalID: -1905268977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_41
+      rect:
+        serializedVersion: 2
+        x: 11092
+        y: 3223
+        width: 494
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5530dd608f64d24ab4a475295ac09f1
+      internalID: -939346537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_42
+      rect:
+        serializedVersion: 2
+        x: 11967
+        y: 3224
+        width: 604
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f9597356fa8d4419d3044bdcba518b
+      internalID: 1082344686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_43
+      rect:
+        serializedVersion: 2
+        x: 12922
+        y: 3219
+        width: 677
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247c066415748414a8f4ac0169506e90
+      internalID: -746562601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_44
+      rect:
+        serializedVersion: 2
+        x: 13878
+        y: 3215
+        width: 771
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bfcec1a25a1974899b7c8e908b04f5
+      internalID: 539703932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_45
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2121
+        width: 819
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5abbe44e5dffabf48a7e9e0e8e750e69
+      internalID: -656125068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_46
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 2123
+        width: 711
+        height: 824
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd91016b049ca984c981922fdcf48744
+      internalID: -273588402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_47
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 2115
+        width: 518
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9898d500c2723148a8219e5f07c6356
+      internalID: 1306955873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_48
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 2114
+        width: 522
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb98c338a7ef89b4ba731f0a3bf4ef9b
+      internalID: -1802708911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_49
+      rect:
+        serializedVersion: 2
+        x: 4213
+        y: 2111
+        width: 644
+        height: 878
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fb37adf65f2d247b9e900a791a2e9b
+      internalID: 947521414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_50
+      rect:
+        serializedVersion: 2
+        x: 5071
+        y: 2118
+        width: 882
+        height: 839
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494c6da0af941e44fac7ea9ad01e1402
+      internalID: 1429715896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_51
+      rect:
+        serializedVersion: 2
+        x: 6048
+        y: 2126
+        width: 869
+        height: 838
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0086cb71daacff341b59ea82296ebf38
+      internalID: -1751551734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_52
+      rect:
+        serializedVersion: 2
+        x: 7079
+        y: 2133
+        width: 880
+        height: 842
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5e41f34afbcc64fbe359d2adb8b63f
+      internalID: 1285100559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_53
+      rect:
+        serializedVersion: 2
+        x: 8218
+        y: 2116
+        width: 693
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ad5a56c97c82a4dbb0affe688c9510
+      internalID: -628924844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_54
+      rect:
+        serializedVersion: 2
+        x: 9218
+        y: 2164
+        width: 521
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968a9feedd4297e478429d3f96a9800e
+      internalID: -1174422838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_55
+      rect:
+        serializedVersion: 2
+        x: 10152
+        y: 2162
+        width: 469
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06b3387995e3d44f8b4302589f66809
+      internalID: -289535803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_56
+      rect:
+        serializedVersion: 2
+        x: 11151
+        y: 2171
+        width: 469
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694aee19ab678414e9e7e31a0305cefd
+      internalID: -49373710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_57
+      rect:
+        serializedVersion: 2
+        x: 12058
+        y: 2159
+        width: 583
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2907a2095055441880f2ba8a2c85c7
+      internalID: 1945517593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_58
+      rect:
+        serializedVersion: 2
+        x: 13042
+        y: 2159
+        width: 614
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8624a7223834a1a4088b4f3119320319
+      internalID: -1221738734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_59
+      rect:
+        serializedVersion: 2
+        x: 14016
+        y: 2161
+        width: 687
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78109940936c0a94eb430ba7bd83374d
+      internalID: -275181393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_60
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1073
+        width: 844
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a07dd646603f8e4b98558c524af78f9
+      internalID: -1227370622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_61
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1066
+        width: 829
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39dad8086a06bd746958c8e80dfca5ec
+      internalID: 393671391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_62
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1066
+        width: 758
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca4df2063856d64abac5a234bab510f
+      internalID: -1241934455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_63
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 1064
+        width: 790
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d5a06112ae8994dba1c46232114f73
+      internalID: -2081248800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_64
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 1065
+        width: 753
+        height: 877
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3796eb309ff91a54ba93509b22ce9237
+      internalID: -2095455749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_65
+      rect:
+        serializedVersion: 2
+        x: 5034
+        y: 1058
+        width: 861
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7c7181986bfd1488c51be41b9bf60a
+      internalID: -825073626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_66
+      rect:
+        serializedVersion: 2
+        x: 6034
+        y: 1068
+        width: 847
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d024119f1e076459e12a817a0354be
+      internalID: 1494245738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_67
+      rect:
+        serializedVersion: 2
+        x: 6997
+        y: 1062
+        width: 870
+        height: 811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d11b03d74aa9b44995d1a21957603d4
+      internalID: 617895305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_68
+      rect:
+        serializedVersion: 2
+        x: 8015
+        y: 1061
+        width: 749
+        height: 881
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf61bf864ee92b44b01153e1bdaa4f4
+      internalID: -417132758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_69
+      rect:
+        serializedVersion: 2
+        x: 8943
+        y: 1102
+        width: 685
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc8046ea6f98f64ab39d1ab74554efc
+      internalID: -2067276012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_70
+      rect:
+        serializedVersion: 2
+        x: 9915
+        y: 1101
+        width: 741
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1f655236430d045be9698f66242c99
+      internalID: 1722415321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_71
+      rect:
+        serializedVersion: 2
+        x: 10941
+        y: 1109
+        width: 739
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfbb87dd1f0d8d409e6326afea13f16
+      internalID: 1335940673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_72
+      rect:
+        serializedVersion: 2
+        x: 11928
+        y: 1101
+        width: 724
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0ec70c2a9e17c4f9217b394c8673fa
+      internalID: -1132188185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_73
+      rect:
+        serializedVersion: 2
+        x: 12939
+        y: 1112
+        width: 735
+        height: 867
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3052bc7ddff50c846b13f85e7747abd8
+      internalID: -1541052509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_74
+      rect:
+        serializedVersion: 2
+        x: 13950
+        y: 1108
+        width: 773
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7aeadc39cd627746ba66fa4ff812ab0
+      internalID: 216279761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_75
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 20
+        width: 850
+        height: 764
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea8ef16c66c4fe4d8002143924fb5b7
+      internalID: 1829521946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_76
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 8
+        width: 861
+        height: 792
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579c6b842b53473459031efb66ecbe29
+      internalID: 360528428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_77
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 1
+        width: 758
+        height: 893
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bc5bc63c2c53346982b5a9f7bdc0fe
+      internalID: 2010129188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_78
+      rect:
+        serializedVersion: 2
+        x: 3066
+        y: 1
+        width: 819
+        height: 895
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91556d678f7886f4cacd0d69d1cff7cb
+      internalID: 81985580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_79
+      rect:
+        serializedVersion: 2
+        x: 4070
+        y: 4
+        width: 778
+        height: 878
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a5dc9c7480d704e842a9b61ee35ee9
+      internalID: 1452097058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_80
+      rect:
+        serializedVersion: 2
+        x: 5037
+        y: 10
+        width: 838
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8480922d8e7334bafd2cbafae9cbe8
+      internalID: 249576194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_81
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 81
+        width: 877
+        height: 684
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4092bb1fe3e213544a78e6ebcc820b2b
+      internalID: 607092002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_82
+      rect:
+        serializedVersion: 2
+        x: 7031
+        y: 6
+        width: 850
+        height: 766
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b654427f82b189542951c0a4bd515827
+      internalID: 215257134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_83
+      rect:
+        serializedVersion: 2
+        x: 8046
+        y: 6
+        width: 765
+        height: 882
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdf4d601d175b843a923bc94bff070f
+      internalID: -964390963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_84
+      rect:
+        serializedVersion: 2
+        x: 9107
+        y: 53
+        width: 692
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8db4eb761c6f849926a03e45b35c5c
+      internalID: 1953734059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_85
+      rect:
+        serializedVersion: 2
+        x: 10043
+        y: 41
+        width: 741
+        height: 880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370a3b7f873486d41ac201273a331690
+      internalID: -422876935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_86
+      rect:
+        serializedVersion: 2
+        x: 11036
+        y: 47
+        width: 746
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1478439c5e6db4ca0e6b8375ae4664
+      internalID: 639327435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_87
+      rect:
+        serializedVersion: 2
+        x: 12048
+        y: 49
+        width: 733
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8d6e2a0bd6bb7429aaca70128dc571
+      internalID: -1974177361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_88
+      rect:
+        serializedVersion: 2
+        x: 13052
+        y: 48
+        width: 725
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1e70111fff96140b02655bb204db67
+      internalID: 135086261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zerum andando_89
+      rect:
+        serializedVersion: 2
+        x: 13999
+        y: 50
+        width: 785
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce816d9e7dda4348875cde63720dc79
+      internalID: -1671726735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      zerum andando_0: -100779126
+      zerum andando_1: 1171421452
+      zerum andando_10: 2100804849
+      zerum andando_11: -135898971
+      zerum andando_12: 1519553998
+      zerum andando_13: -1032143329
+      zerum andando_14: -1442321023
+      zerum andando_15: -973243684
+      zerum andando_16: 812483046
+      zerum andando_17: -1880305308
+      zerum andando_18: 1111749429
+      zerum andando_19: -212443605
+      zerum andando_2: 1662854055
+      zerum andando_20: -616365936
+      zerum andando_21: -1492213559
+      zerum andando_22: -529929548
+      zerum andando_23: 104433084
+      zerum andando_24: 2143293836
+      zerum andando_25: -1267231788
+      zerum andando_26: 1341181756
+      zerum andando_27: -1818723068
+      zerum andando_28: -33075219
+      zerum andando_29: -486367530
+      zerum andando_3: -1222545298
+      zerum andando_30: -2028656159
+      zerum andando_31: 1494615107
+      zerum andando_32: 1595703700
+      zerum andando_33: -1589606497
+      zerum andando_34: -2089860969
+      zerum andando_35: 1412811590
+      zerum andando_36: -1373111237
+      zerum andando_37: 1539768259
+      zerum andando_38: -1774385978
+      zerum andando_39: 1979739629
+      zerum andando_4: 384179820
+      zerum andando_40: -1905268977
+      zerum andando_41: -939346537
+      zerum andando_42: 1082344686
+      zerum andando_43: -746562601
+      zerum andando_44: 539703932
+      zerum andando_45: -656125068
+      zerum andando_46: -273588402
+      zerum andando_47: 1306955873
+      zerum andando_48: -1802708911
+      zerum andando_49: 947521414
+      zerum andando_5: -793889682
+      zerum andando_50: 1429715896
+      zerum andando_51: -1751551734
+      zerum andando_52: 1285100559
+      zerum andando_53: -628924844
+      zerum andando_54: -1174422838
+      zerum andando_55: -289535803
+      zerum andando_56: -49373710
+      zerum andando_57: 1945517593
+      zerum andando_58: -1221738734
+      zerum andando_59: -275181393
+      zerum andando_6: -1050147807
+      zerum andando_60: -1227370622
+      zerum andando_61: 393671391
+      zerum andando_62: -1241934455
+      zerum andando_63: -2081248800
+      zerum andando_64: -2095455749
+      zerum andando_65: -825073626
+      zerum andando_66: 1494245738
+      zerum andando_67: 617895305
+      zerum andando_68: -417132758
+      zerum andando_69: -2067276012
+      zerum andando_7: 445964
+      zerum andando_70: 1722415321
+      zerum andando_71: 1335940673
+      zerum andando_72: -1132188185
+      zerum andando_73: -1541052509
+      zerum andando_74: 216279761
+      zerum andando_75: 1829521946
+      zerum andando_76: 360528428
+      zerum andando_77: 2010129188
+      zerum andando_78: 81985580
+      zerum andando_79: 1452097058
+      zerum andando_8: -67816431
+      zerum andando_80: 249576194
+      zerum andando_81: 607092002
+      zerum andando_82: 215257134
+      zerum andando_83: -964390963
+      zerum andando_84: 1953734059
+      zerum andando_85: -422876935
+      zerum andando_86: 639327435
+      zerum andando_87: -1974177361
+      zerum andando_88: 135086261
+      zerum andando_89: -1671726735
+      zerum andando_9: -1691783166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
