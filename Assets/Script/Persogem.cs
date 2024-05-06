@@ -1,5 +1,6 @@
 using Cinemachine;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -57,9 +58,12 @@ public class Persogem : MonoBehaviour
 
     public ColetarItem coletorDeItens;
 
+   
+
     // Start is called before the first frame update
     void Start()
     {
+
         coletorDeItens = GetComponent<ColetarItem>();
 
         //Moeda_texto = GameObject.FindGameObjectWithTag("Moeda_texto_tag").GetComponent<Text>();
@@ -165,8 +169,9 @@ public class Persogem : MonoBehaviour
         {
             SemArma = false;
            
-        }
+        }     
     }
+    
     
     //Tempo de Pulo
     void TemporizadorPulo()
@@ -279,8 +284,8 @@ public class Persogem : MonoBehaviour
 
     IEnumerator CameraShake() 
     {
-        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = 3;
-        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 3;
+        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = 2;
+        cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 2;
         yield return new WaitForSeconds(0.5f);
         cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = 0;
         cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 0;
@@ -314,4 +319,5 @@ public class Persogem : MonoBehaviour
     {
         SceneManager.LoadScene(5);
     }
+    
 }

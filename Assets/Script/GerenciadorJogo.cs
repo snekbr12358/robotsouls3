@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GerenciadorJogo : MonoBehaviour
 {
+    Vector2 checkpointPos;
+
     public GameObject audioListener;
 
     [SerializeField] private GameObject painelMenuInicial;
@@ -18,6 +20,8 @@ public class GerenciadorJogo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        checkpointPos = transform.position;
+
         //Pausa os scripts
         GameLigado = true;
         //Pausa Fisica do Jogo
@@ -104,5 +108,9 @@ public class GerenciadorJogo : MonoBehaviour
     public void FecharPause()
     {
         SceneManager.LoadScene(0);
+    }
+    public void UpdateCheckpoint(Vector2 pos) 
+    {
+        checkpointPos = pos;
     }
 }
