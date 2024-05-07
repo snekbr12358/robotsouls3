@@ -19,6 +19,7 @@ TagManager:
   - Parede
   - Canhao
   - Item
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

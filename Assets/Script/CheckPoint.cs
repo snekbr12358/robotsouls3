@@ -1,19 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class CheckPoint : MonoBehaviour
+public class Checkpoint : MonoBehaviour
 {
-    GerenciadorJogo GJ;
-    private void Awake()
+    int level;
+    void Start()
     {
-        GJ = GameObject.FindGameObjectWithTag("Player").GetComponent<GerenciadorJogo>();
+        Scene scene = SceneManager.GetActiveScene();
+        level = scene.buildIndex;
     }
+
+    
+    void Update()
+    {
+        
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.tag == "Player") 
         {
-            GJ.UpdateCheckpoint(transform.position);
+            Persogem player = collision.GetComponent<Persogem>();
+            player.SaveGameState(level);
         }
     }
+
 }

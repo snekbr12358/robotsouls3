@@ -58,11 +58,17 @@ public class Persogem : MonoBehaviour
 
     public ColetarItem coletorDeItens;
 
-   
 
     // Start is called before the first frame update
     void Start()
     {
+        int currentLevel = GetCurrentLevel(); // Um método que retorna o nível atual que o jogador deve estar.
+        Vector3 spawnPosition = LoadGameState(currentLevel);
+
+        // Define a posição inicial do jogador com base na posição carregada.
+        transform.position = spawnPosition;
+
+
 
         coletorDeItens = GetComponent<ColetarItem>();
 
@@ -319,5 +325,36 @@ public class Persogem : MonoBehaviour
     {
         SceneManager.LoadScene(5);
     }
-    
+    public void SaveGameState(int level)
+    {
+        PlayerPrefs.SetInt("CurrentLevel", level);
+        PlayerPrefs.SetFloat("PlayerX", transform.position.x);
+        PlayerPrefs.SetFloat("PlayerY", transform.position.y);
+        PlayerPrefs.SetFloat("PlayerZ", transform.position.z);
+
+        PlayerPrefs.Save(); // Garante que os dados sejam salvos imediatamente
+    }
+
+    Vector3 LoadGameState(int level)
+    {
+        int savedLevel = PlayerPrefs.GetInt("CurrentLevel", -1);
+
+        if (savedLevel == level)
+        {
+            float x = PlayerPrefs.GetFloat("PlayerX");
+            float y = PlayerPrefs.GetFloat("PlayerY");
+            float z = PlayerPrefs.GetFloat("PlayerZ");
+            return new Vector3(x, y, z);
+        }
+        else
+        {
+            return transform.position;
+        }
+    }
+
+    int GetCurrentLevel()
+    {
+        // Retorna o nível atual; pode vir de PlayerPrefs ou de outra lógica de gerenciamento de níveis
+        return PlayerPrefs.GetInt("CurrentLevel", 1);  // Assume nível 1 como padrão
+    }
 }

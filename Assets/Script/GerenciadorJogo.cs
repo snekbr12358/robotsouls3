@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GerenciadorJogo : MonoBehaviour
@@ -113,4 +114,10 @@ public class GerenciadorJogo : MonoBehaviour
     {
         checkpointPos = pos;
     }
+
+    private void OnApplicationQuit()
+    {
+        PlayerPrefs.DeleteAll();
+    }
+
 }
