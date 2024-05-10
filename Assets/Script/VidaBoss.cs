@@ -26,10 +26,17 @@ public class VidaBoss : MonoBehaviour
     }
     public void LevarDano(int dano)
     { 
-        vida -= dano;   
+        vida -= dano;
+        StartCoroutine("Vermelhinho");
         if (vida <= 0)
         {
             
         }       
+    }
+    IEnumerator Vermelhinho()
+    {
+        ImagemLamp.color = Color.red;
+        yield return new WaitForSeconds(0.5f);
+        ImagemLamp.color = Color.white;
     }
 }
