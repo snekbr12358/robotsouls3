@@ -11,6 +11,8 @@ public class VidaBoss : MonoBehaviour
     Animator animator;
     private SpriteRenderer ImagemLamp;
 
+    public GameObject AtivarBarreira;
+
     // Start is called before the first frame update
     void Start()
     {

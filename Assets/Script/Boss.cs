@@ -5,6 +5,7 @@ using UnityEngine;
 public class Boss : MonoBehaviour
 {
     public AlavancaController alavanca;
+    public AtivarBarreira Barreira;
 
     Animator animator;
     private float velocidadeauto;
@@ -74,6 +75,7 @@ public class Boss : MonoBehaviour
             animator.SetBool("Morte", true);
             ImagemBoss.color = Color.white;
             alavanca.DesativarEscudo();
+            Barreira.DesativarAposMorte();
         }
     }
 
