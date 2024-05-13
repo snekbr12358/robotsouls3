@@ -32,6 +32,7 @@ public class VidaBoss : MonoBehaviour
         {
             
         }       
+        
     }
     IEnumerator Vermelhinho()
     {
