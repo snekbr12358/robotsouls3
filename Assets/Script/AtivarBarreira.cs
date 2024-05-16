@@ -16,7 +16,7 @@ public class AtivarBarreira : MonoBehaviour
         
         if (other.gameObject.tag == "Player")
         {
-            
+
             barreiraAtivada = true;
         }
     }
@@ -27,9 +27,9 @@ public class AtivarBarreira : MonoBehaviour
         if (barreiraAtivada && tempoDecorrido >= tempoParaAtivar)
         {
             
-            barreira.isTrigger = true;
+            barreira.isTrigger = false;
         }
-        else
+        else if(barreiraAtivada)
         {
           
             tempoDecorrido += Time.deltaTime;
@@ -38,10 +38,7 @@ public class AtivarBarreira : MonoBehaviour
 
     public void DesativarAposMorte()
     {
-        if (desativarAposMorte)
-        {
-            barreira.isTrigger =false;
-        }
+        barreira.gameObject.SetActive(false);
     }
 
     public void SetDesativarAposMorte(bool desativar)
