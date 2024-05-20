@@ -11,39 +11,38 @@ public class AtivarBarreira : MonoBehaviour
     private bool desativarAposMorte = false;
     private float tempoDecorrido = 0f;
 
+    public Animator animator;
+
+
     void OnTriggerEnter2D(Collider2D other)
     {
         
         if (other.gameObject.tag == "Player")
         {
-
-            barreiraAtivada = true;
+            animator.SetBool("fechar", true);
         }
     }
 
     void Update()
     {
-    
-        if (barreiraAtivada && tempoDecorrido >= tempoParaAtivar)
-        {
-            
-            barreira.isTrigger = false;
-        }
-        else if(barreiraAtivada)
-        {
-          
-            tempoDecorrido += Time.deltaTime;
-        }
+
     }
+
+    public void AbrirPortao() 
+    {
+        animator.SetBool("fechar", false);
+    }
+
+    public void FecharPortao() 
+    {
+        animator.SetBool("fechar", true);
+    }
+
 
     public void DesativarAposMorte()
     {
+        AbrirPortao();
         barreira.gameObject.SetActive(false);
-    }
-
-    public void SetDesativarAposMorte(bool desativar)
-    {
-        desativarAposMorte = desativar;
     }
 
 }
