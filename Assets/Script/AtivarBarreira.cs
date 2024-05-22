@@ -12,7 +12,7 @@ public class AtivarBarreira : MonoBehaviour
     private float tempoDecorrido = 0f;
 
     public Animator animator;
-
+    public Animator animator1;
 
     void OnTriggerEnter2D(Collider2D other)
     {
