@@ -80,6 +80,7 @@ public class Persogem : MonoBehaviour
         vidamax = vida;
     }
 
+
     // Update is called once per frame
     void Update()
     {
@@ -212,6 +213,7 @@ public class Persogem : MonoBehaviour
                 }
             }
         }
+
         if(colisao.gameObject.tag == "morte_imediata")
         {
             if(pode_dano == true)
@@ -354,7 +356,7 @@ public class Persogem : MonoBehaviour
 
     int GetCurrentLevel()
     {
-        // Retorna o nível atual; pode vir de PlayerPrefs ou de outra lógica de gerenciamento de níveis
-        return PlayerPrefs.GetInt("CurrentLevel", 1);  // Assume nível 1 como padrão
+        return PlayerPrefs.GetInt("CurrentLevel", 1);  
     }
+
 }

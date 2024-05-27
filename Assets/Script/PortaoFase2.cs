@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PortaoFase2 : MonoBehaviour
 {
     [SerializeField]
-    private string nomeProximaFase;
+    private int indice;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +25,6 @@ public class PortaoFase2 : MonoBehaviour
     }
     private void IrProximaFase()
     {
-        SceneManager.LoadScene(this.nomeProximaFase);
+        SceneManager.LoadScene(indice);
     }
 }

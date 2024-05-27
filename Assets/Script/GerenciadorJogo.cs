@@ -15,9 +15,7 @@ public class GerenciadorJogo : MonoBehaviour
     public bool GameLigado = false;
     public GameObject pauseMenu;
 
-    public static GerenciadorJogo instance;
-    public int playerHealth;
-    public Vector2 playerPosition;
+
 
 
     // Start is called before the first frame update
@@ -115,35 +113,6 @@ public class GerenciadorJogo : MonoBehaviour
     public void UpdateCheckpoint(Vector2 pos) 
     {
         checkpointPos = pos;
-    }
-
-    private void OnApplicationQuit()
-    {
-        PlayerPrefs.DeleteAll();
-    }
-    void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
-
-    public void SavePlayerData(int health, Vector2 position)
-    {
-        playerHealth = health;
-        playerPosition = position;
-    }
-
-    public void LoadPlayerData(out int health, out Vector2 position)
-    {
-        health = playerHealth;
-        position = playerPosition;
     }
 }
 
