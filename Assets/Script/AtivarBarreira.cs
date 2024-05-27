@@ -20,6 +20,7 @@ public class AtivarBarreira : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             animator.SetBool("fechar", true);
+            animator1.SetBool("fechar", true);
         }
     }
 
@@ -31,11 +32,13 @@ public class AtivarBarreira : MonoBehaviour
     public void AbrirPortao() 
     {
         animator.SetBool("fechar", false);
+        animator1.SetBool("fechar", false);
     }
 
     public void FecharPortao() 
     {
         animator.SetBool("fechar", true);
+        animator1.SetBool("fechar", true);
     }
 
 
