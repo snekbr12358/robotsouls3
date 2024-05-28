@@ -66,7 +66,7 @@ public class Persogem : MonoBehaviour
         Vector3 spawnPosition = LoadGameState(currentLevel);
 
         // Define a posição inicial do jogador com base na posição carregada.
-        transform.position = spawnPosition;
+        //transform.position = spawnPosition;
 
 
 
