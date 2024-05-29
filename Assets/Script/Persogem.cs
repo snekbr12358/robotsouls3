@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class Persogem : MonoBehaviour
 {
+    public int currentLevelIndex;
+
     public RuntimeAnimatorController animatorCanhaoPrefab;
 
     public GameObject iconeCanhao;
@@ -62,13 +64,10 @@ public class Persogem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int currentLevel = GetCurrentLevel(); // Um método que retorna o nível atual que o jogador deve estar.
-        Vector3 spawnPosition = LoadGameState(currentLevel);
+        Vector3 spawnPosition = LoadGameState(currentLevelIndex);
 
         // Define a posição inicial do jogador com base na posição carregada.
-        //transform.position = spawnPosition;
-
-
+        transform.position = spawnPosition;
 
         coletorDeItens = GetComponent<ColetarItem>();
 
@@ -352,11 +351,6 @@ public class Persogem : MonoBehaviour
         {
             return transform.position;
         }
-    }
-
-    int GetCurrentLevel()
-    {
-        return PlayerPrefs.GetInt("CurrentLevel", 1);  
     }
 
 }
