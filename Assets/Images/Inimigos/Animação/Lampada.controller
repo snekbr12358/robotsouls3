@@ -9,7 +9,7 @@ AnimatorController:
   m_Name: Lampada
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: LampDes
+  - m_Name: LampLig
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -39,10 +39,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 3619858073514241399}
-    m_Position: {x: 330, y: 10, z: 0}
+    m_Position: {x: 320, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4048320907062236780}
-    m_Position: {x: 330, y: 120, z: 0}
+    m_Position: {x: 320, y: 20, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -52,7 +52,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: 4048320907062236780}
+  m_DefaultState: {fileID: 3619858073514241399}
 --- !u!1102 &3619858073514241399
 AnimatorState:
   serializedVersion: 6
@@ -88,7 +88,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: LampDes
+    m_ConditionEvent: LampLig
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3619858073514241399}
@@ -111,7 +111,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lampadas
+  m_Name: LampadasLigadas
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:

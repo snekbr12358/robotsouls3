@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 265738338}
-  nextScene: 9
+  nextScene: 2
 --- !u!4 &265738337
 Transform:
   m_ObjectHideFlags: 0

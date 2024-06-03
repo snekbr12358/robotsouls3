@@ -17,6 +17,8 @@ public class AlavancaController : MonoBehaviour
 
     public bool Ativada;
 
+    CutsceneController cutsceneController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +28,10 @@ public class AlavancaController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (videoPlayer.isPaused)
+        {
+            videoPlayer.Stop();
+        }
     }
     public void DesativarEscudo() 
     { 
@@ -53,7 +58,10 @@ public class AlavancaController : MonoBehaviour
                     }
                     if (videoPlayer != null)
                     {
-                        videoPlayer.Play();
+                        if (!videoPlayer.isPlaying) 
+                        { 
+                            videoPlayer.Play();
+                        }
                     }
                 }
             }
