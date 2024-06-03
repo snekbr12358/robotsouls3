@@ -51,7 +51,7 @@ public class Persogem : MonoBehaviour
 
     bool direita;
 
-    bool SemArma = true;
+   public bool SemArma = true;
 
     CinemachineVirtualCamera cameraVirtualPlayer;
 

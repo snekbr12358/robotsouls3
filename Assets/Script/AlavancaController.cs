@@ -40,11 +40,11 @@ public class AlavancaController : MonoBehaviour
             if(collision.tag == "Player")
             {
                 if (!aboboda.activeSelf)
-                {
+                {                   
                     animator.SetBool("Ativada", true);
                     Ativada = true;
                     if (gateController.isActiveAndEnabled)
-                    {
+                    {                      
                         gateController.HideGate();
                     }
                     else
