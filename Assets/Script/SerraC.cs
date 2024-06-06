@@ -4,34 +4,26 @@ using UnityEngine;
 
 public class SerraC : MonoBehaviour
 {
-    public float velocidade = 0.03f;
-    public float distInicial = 0f;
-    public float distFinal = 0f;
-    private float velocidadeauto;
+    public float velocidade = 2.0f;
+    private Vector2 direcao;
 
     void Start()
     {
 
-        
+        direcao = transform.right;
     }
 
     void Update()
     {
-       
+        transform.Translate(direcao * velocidade * Time.deltaTime);
     }
-    void Andar()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        transform.position = new Vector3(transform.position.x + velocidadeauto * Time.deltaTime, transform.position.y, transform.position.z);
-        //mudar velocidade
-        //Andar para trás
-        if (transform.position.x > distFinal)
+        if (collision.CompareTag("Parede"))
         {
-            velocidadeauto = velocidade * -1f;   
+            direcao = -direcao;
         }
-        //Andar para frente
-        if (transform.position.x < distInicial)
-        {
-            velocidadeauto = velocidade * 1f;
-        }
+
+
     }
 }
