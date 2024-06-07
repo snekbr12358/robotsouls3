@@ -37,5 +37,4 @@ public class CutsceneController : MonoBehaviour
         SceneManager.LoadScene(nextScene);
     }
 
-
 }
