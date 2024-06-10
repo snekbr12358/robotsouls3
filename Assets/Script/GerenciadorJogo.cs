@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -5,24 +6,37 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GerenciadorJogo : MonoBehaviour
 {
+
     Vector2 checkpointPos;
     GameObject checkpointPrefab;
 
     public GameObject audioListener;
 
+    [SerializeField] CinemachineVirtualCamera vmCamMain;
+
     [SerializeField] private GameObject painelMenuInicial;
+
     [SerializeField] private GameObject painelOpcoes;
 
     public bool GameLigado = false;
+
     public GameObject pauseMenu;
 
     private GameObject personagemAtual;
 
+    [SerializeField] GameObject PrefabPersonagemComArma;
 
     // Start is called before the first frame update
     void Start()
     {
         checkpointPos = transform.position;
+
+        Persogem persogem = FindObjectOfType<Persogem>();
+
+        /*if (persogem.SemArma == true && PlayerPrefs.HasKey("CurrentLevel"))
+        {
+            
+        }*/
 
         //Pausa os scripts
         GameLigado = true;
@@ -39,8 +53,6 @@ public class GerenciadorJogo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
         if (Input.GetKeyDown(KeyCode.Escape))
             PauseMenu();
     }
@@ -116,6 +128,7 @@ public class GerenciadorJogo : MonoBehaviour
         checkpointPos = pos;
         checkpointPrefab = prefab;
     }
+    
    public void RestaurarNoCheckpoint()
     {
         {
@@ -126,6 +139,7 @@ public class GerenciadorJogo : MonoBehaviour
 
                     Destroy(personagemAtual);
                 }
+
                 personagemAtual = Instantiate(checkpointPrefab, checkpointPos, Quaternion.identity);
                
             }

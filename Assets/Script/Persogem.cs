@@ -54,7 +54,7 @@ public class Persogem : MonoBehaviour
 
     bool direita;
 
-   public bool SemArma = true;
+   public bool Armado = false;
 
     CinemachineVirtualCamera cameraVirtualPlayer;
 
@@ -70,6 +70,11 @@ public class Persogem : MonoBehaviour
         //SaveGameState(currentLevelIndex);
 
         Vector3 spawnPosition = LoadGameState(currentLevelIndex);
+
+        if (Armado) 
+        {
+            animator.runtimeAnimatorController = animatorCanhaoPrefab;
+        }
 
         // Define a posição inicial do jogador com base na posição carregada.
         transform.position = spawnPosition;
@@ -147,7 +152,7 @@ public class Persogem : MonoBehaviour
     }
     void Pular()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && pode_pular == true)
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump") && pode_pular == true)
         {
             animator.SetBool("Pula", true);
             pode_pular = false;
@@ -178,7 +183,7 @@ public class Persogem : MonoBehaviour
         }    
         if (gatilho.gameObject.tag == "Canhao")
         {
-            SemArma = false;
+            Armado = true;
            
         }     
     }
@@ -230,7 +235,7 @@ public class Persogem : MonoBehaviour
         }
         if (colisao.gameObject.tag == "Canhao") 
         {
-            SemArma = false;
+            Armado = true;
             animator.runtimeAnimatorController = animatorCanhaoPrefab;
             colisao.gameObject.SetActive(false);
             StartCoroutine(AparecerDesaparecer(3, iconeCanhao));
@@ -247,7 +252,7 @@ public class Persogem : MonoBehaviour
     //Atira Balas
     void Atirar()
     {
-        if (Input.GetKeyDown(KeyCode.X) && !SemArma)
+        if ((Input.GetKeyDown(KeyCode.X) || Input.GetButtonDown("Fire1")) && Armado)
         {           
             animator.SetTrigger("Ataque");
            //Instantiate(Bala, this.transform.position, this.transform.rotation);
@@ -334,6 +339,7 @@ public class Persogem : MonoBehaviour
     public void SaveGameState(int level)
     {
         PlayerPrefs.SetInt("CurrentLevel", level);
+        PlayerPrefs.SetString ("Armado", Armado.ToString());
         PlayerPrefs.SetFloat("PlayerX", transform.position.x);
         PlayerPrefs.SetFloat("PlayerY", transform.position.y);
         PlayerPrefs.SetFloat("PlayerZ", transform.position.z);
@@ -350,6 +356,9 @@ public class Persogem : MonoBehaviour
             float x = PlayerPrefs.GetFloat("PlayerX");
             float y = PlayerPrefs.GetFloat("PlayerY");
             float z = PlayerPrefs.GetFloat("PlayerZ");
+
+            Armado = bool.Parse(PlayerPrefs.GetString("Armado"));
+
             return new Vector3(x, y, z);
         }
         else

@@ -16,6 +16,10 @@ public class AlavancaController : MonoBehaviour
     public GameObject aboboda;
 
     public bool Ativada;
+    public bool LampLig;
+
+    public GameObject lampada;
+    private Animator lampadaAnimator;
 
     CutsceneController cutsceneController;
 
@@ -23,6 +27,11 @@ public class AlavancaController : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+
+        if (lampada != null)
+        {
+            lampadaAnimator = lampada.GetComponent<Animator>();
+        }
     }
 
     // Update is called once per frame
@@ -39,7 +48,7 @@ public class AlavancaController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
+        
         if (gateController != null)
         {
             if(collision.tag == "Player")
@@ -48,6 +57,8 @@ public class AlavancaController : MonoBehaviour
                 {                   
                     animator.SetBool("Ativada", true);
                     Ativada = true;
+                    animator.SetBool("LampLig", true);
+                    LampLig = true;
                     if (gateController.isActiveAndEnabled)
                     {                      
                         gateController.HideGate();
@@ -62,6 +73,10 @@ public class AlavancaController : MonoBehaviour
                         { 
                             videoPlayer.Play();
                         }
+                    }
+                    if (lampadaAnimator != null)
+                    {
+                        lampadaAnimator.SetBool("LampLig", true);
                     }
                 }
             }

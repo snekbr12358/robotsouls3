@@ -20,6 +20,9 @@ TagManager:
   - Canhao
   - Item
   - Checkpoint
+  - hpbarra01
+  - hpbarra02
+  - hpbarra03
   layers:
   - Default
   - TransparentFX
