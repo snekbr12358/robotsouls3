@@ -7,6 +7,9 @@ using UnityEngine.UI;
 
 public class Persogem : MonoBehaviour
 {
+
+
+    [Header("MUDAR!")]
     public int currentLevelIndex;
 
     public RuntimeAnimatorController animatorCanhaoPrefab;
@@ -64,6 +67,8 @@ public class Persogem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //SaveGameState(currentLevelIndex);
+
         Vector3 spawnPosition = LoadGameState(currentLevelIndex);
 
         // Define a posição inicial do jogador com base na posição carregada.

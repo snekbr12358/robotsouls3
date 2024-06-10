@@ -6,22 +6,22 @@ using UnityEngine.Video;
 public class CutScene : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-    public int nextScene;
 
     CutsceneController cutsceneController;
+
     // Start is called before the first frame update
     void Start()
     {
-        if (videoPlayer.isPaused)
-        {
-            videoPlayer.Stop();
-        }
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (videoPlayer.isPaused)
+        {
+            videoPlayer.Stop();
+        }
     }
      private void OnTriggerEnter2D(Collider2D collision)
     {

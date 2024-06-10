@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GerenciadorJogo : MonoBehaviour
 {
     Vector2 checkpointPos;
+    GameObject checkpointPrefab;
 
     public GameObject audioListener;
 
@@ -15,7 +16,7 @@ public class GerenciadorJogo : MonoBehaviour
     public bool GameLigado = false;
     public GameObject pauseMenu;
 
-
+    private GameObject personagemAtual;
 
 
     // Start is called before the first frame update
@@ -29,19 +30,19 @@ public class GerenciadorJogo : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    public void IniciarJogo() 
+    public void IniciarJogo()
     {
-       SceneManager.LoadScene(0);
-       
+        SceneManager.LoadScene(0);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-       
-       
+
+
         if (Input.GetKeyDown(KeyCode.Escape))
-        PauseMenu();      
+            PauseMenu();
     }
 
     public bool EstadoDoJogo()
@@ -62,15 +63,15 @@ public class GerenciadorJogo : MonoBehaviour
     }
     public void PersogemMorreu()
     {
-      //Reiniciar o Jogo Nesse Momento
-      Reiniciar();
+        //Reiniciar o Jogo Nesse Momento
+        Reiniciar();
     }
     //Reinicia o Jogo
     void Reiniciar()
     {
         SceneManager.LoadScene(5);
     }
-    public void AbrirOpcoes() 
+    public void AbrirOpcoes()
     {
         SceneManager.LoadScene(3);
     }
@@ -78,7 +79,7 @@ public class GerenciadorJogo : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-   
+
     public void Creditos()
     {
         SceneManager.LoadScene(4);
@@ -110,9 +111,25 @@ public class GerenciadorJogo : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
-    public void UpdateCheckpoint(Vector2 pos) 
+    public void UpdateCheckpoint(Vector2 pos, GameObject prefab)
     {
         checkpointPos = pos;
+        checkpointPrefab = prefab;
+    }
+   public void RestaurarNoCheckpoint()
+    {
+        {
+            if (checkpointPrefab != null)
+            {
+                if (personagemAtual != null)
+                {
+
+                    Destroy(personagemAtual);
+                }
+                personagemAtual = Instantiate(checkpointPrefab, checkpointPos, Quaternion.identity);
+               
+            }
+        }
     }
 }
 
