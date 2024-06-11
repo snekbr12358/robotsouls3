@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class Checkpoint : MonoBehaviour
 {
     int level;
+
+    public GameObject Pisca;
+
     void Start()
     {
         Scene scene = SceneManager.GetActiveScene();
@@ -24,7 +27,10 @@ public class Checkpoint : MonoBehaviour
         {
             Persogem player = collision.GetComponent<Persogem>();
             player.SaveGameState(level);
+            Pisca.SetActive(true);
+
         }
+
     }
 
 }

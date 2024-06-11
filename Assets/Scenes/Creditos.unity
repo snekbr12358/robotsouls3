@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 425071785}
   - component: {fileID: 425071784}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Creditos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 10abb691343a6e743a68c0bfd1d57895, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 034bde041c130db4eb88157c0f204edc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -607,10 +607,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioListener: {fileID: 0}
+  vmCamMain: {fileID: 0}
   painelMenuInicial: {fileID: 0}
   painelOpcoes: {fileID: 0}
   GameLigado: 0
   pauseMenu: {fileID: 0}
+  PrefabPersonagemComArma: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

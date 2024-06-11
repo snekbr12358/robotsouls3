@@ -67,7 +67,7 @@ public class Persogem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //SaveGameState(currentLevelIndex);
+        SaveGameState(currentLevelIndex);
 
         Vector3 spawnPosition = LoadGameState(currentLevelIndex);
 

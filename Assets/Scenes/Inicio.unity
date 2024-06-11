@@ -184,7 +184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9fd77d43f0861484fa98b211f027e926, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 15b1893ebfd076f46b9606b51ea52222, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -887,10 +887,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioListener: {fileID: 0}
+  vmCamMain: {fileID: 0}
   painelMenuInicial: {fileID: 0}
   painelOpcoes: {fileID: 0}
   GameLigado: 0
   pauseMenu: {fileID: 0}
+  PrefabPersonagemComArma: {fileID: 0}
 --- !u!114 &1706643283
 MonoBehaviour:
   m_ObjectHideFlags: 0

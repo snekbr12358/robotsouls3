@@ -23,10 +23,6 @@ public class SerraC : MonoBehaviour
         {
             direcao = -direcao;
         }
-        if (collision.CompareTag("Player"))
-        {
-
-        }
 
     }
 }
