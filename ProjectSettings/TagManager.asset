@@ -23,6 +23,7 @@ TagManager:
   - hpbarra01
   - hpbarra02
   - hpbarra03
+  - Serra
   layers:
   - Default
   - TransparentFX

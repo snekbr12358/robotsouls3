@@ -23,7 +23,7 @@ public class Portao : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(7);
         }
     }
 

@@ -185,7 +185,25 @@ public class Persogem : MonoBehaviour
         {
             Armado = true;
            
-        }     
+        }
+        if (gatilho.gameObject.tag == "Inimigo")
+        {
+            if (pode_dano == true)
+            {
+                StartCoroutine("CameraShake");
+                vida--;
+                Perderhp();
+                pode_dano = false;
+                //ImagemPersonagem.color = UnityEngine.Color.red;
+                meuTempoDano = 0;
+                animator.SetTrigger("Dano");
+                //só morro se minha vida for menor ou igual a 0
+                if (vida <= 0)
+                {
+                    Morrer();
+                }
+            }
+        }
     }
     
     
@@ -230,7 +248,7 @@ public class Persogem : MonoBehaviour
                 pode_dano = false;
                 vida = vida - 3;
                 Perderhp();
-                SceneManager.LoadScene(5);
+                SceneManager.LoadScene(6);
             }
         }
         if (colisao.gameObject.tag == "Canhao") 
@@ -249,17 +267,7 @@ public class Persogem : MonoBehaviour
             barrahp[vida-1].gameObject.SetActive(true);
         }
     }
-    private void OnTriggerEnter2D(Collider other)
-    {
-        if(other.gameObject.tag == "Player")
-        {
-            Persogem player = other.GetComponent<Persogem>();
-            if (player != null)
-            {
-                player.Dano();
-            }
-        }
-    }
+    
     //Atira Balas
     void Atirar()
     {
@@ -343,7 +351,7 @@ public class Persogem : MonoBehaviour
     }
     void Reiniciar()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(6);
     }
     public void SaveGameState(int level)
     {

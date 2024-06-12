@@ -608,10 +608,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioListener: {fileID: 0}
+  vmCamMain: {fileID: 0}
   painelMenuInicial: {fileID: 0}
   painelOpcoes: {fileID: 0}
   GameLigado: 0
   pauseMenu: {fileID: 0}
+  PrefabPersonagemComArma: {fileID: 0}
 --- !u!1 &2049566752
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,7 +703,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 7
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
