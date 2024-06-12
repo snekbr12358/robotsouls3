@@ -249,6 +249,17 @@ public class Persogem : MonoBehaviour
             barrahp[vida-1].gameObject.SetActive(true);
         }
     }
+    private void OnTriggerEnter2D(Collider other)
+    {
+        if(other.gameObject.tag == "Player")
+        {
+            Persogem player = other.GetComponent<Persogem>();
+            if (player != null)
+            {
+                player.Dano();
+            }
+        }
+    }
     //Atira Balas
     void Atirar()
     {
@@ -316,8 +327,6 @@ public class Persogem : MonoBehaviour
             pode_dano = true;
             meuTempoDano = 0;
             ImagemPersonagem.color = UnityEngine.Color.white;
-
-
         }
     }
     void Perderhp()
