@@ -6,7 +6,6 @@ public class SerraC : MonoBehaviour
 {
     public float velocidade = 2.0f;
     private Vector2 direcao;
-    public int dano = 1;
 
 
     void Start()
