@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class Persogem : MonoBehaviour
 {
-
+    public int vida = 50;
 
     [Header("MUDAR!")]
     public int currentLevelIndex;
@@ -35,7 +35,7 @@ public class Persogem : MonoBehaviour
     public GameObject idle_icon;
 
     //vida do personagem
-    public int vida = 50;
+    //public int vida = 50;
     int vidamax;
     private float meuTempoDano = 0;
     public bool pode_pular = true;
@@ -62,6 +62,8 @@ public class Persogem : MonoBehaviour
     [SerializeField]float contadorIdle;
 
     public ColetarItem coletorDeItens;
+
+    public float delayDano = 5f;
 
 
     // Start is called before the first frame update
@@ -194,19 +196,53 @@ public class Persogem : MonoBehaviour
                 vida--;
                 Perderhp();
                 pode_dano = false;
-                //ImagemPersonagem.color = UnityEngine.Color.red;
+                ImagemPersonagem.color = UnityEngine.Color.red;
                 meuTempoDano = 0;
                 animator.SetTrigger("Dano");
-                //só morro se minha vida for menor ou igual a 0
+                
                 if (vida <= 0)
                 {
                     Morrer();
                 }
             }
         }
+        
+
     }
-    
-    
+
+    private void OnTriggerStay2D(Collider2D stay)
+    {
+        /*if (stay.gameObject.tag == "Mira")
+        {
+            if (pode_dano == true)
+            {
+                StartCoroutine("CameraShake");
+                vida--;
+                Perderhp();
+                pode_dano = false;
+                //ImagemPersonagem.color = UnityEngine.Color.red;
+                meuTempoDano = 0;
+                animator.SetTrigger("Dano");
+
+                
+                StartCoroutine(DelayDano());
+
+               
+                if (vida <= 0)
+                {
+                    Morrer();
+                }
+            }
+        }*/
+    }
+
+    private IEnumerator DelayDano()
+    {
+        yield return new WaitForSeconds(delayDano);
+        pode_dano = true;
+    }
+
+
     //Tempo de Pulo
     void TemporizadorPulo()
     {
@@ -326,7 +362,25 @@ public class Persogem : MonoBehaviour
         cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = 0;
         cameraVirtualPlayer.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 0;
     }
+    public void ReceberDano(int dano)
+    {
+        StartCoroutine("CameraShake");
+        vida--;
+        Perderhp();
+        pode_dano = false;
+        //ImagemPersonagem.color = UnityEngine.Color.red;
+        meuTempoDano = 0;
+        animator.SetTrigger("Dano");
 
+
+        StartCoroutine(DelayDano());
+
+
+        if (vida <= 0)
+        {
+            Morrer();
+        }
+    }
     void temporizadorDano()
     {
         meuTempoDano += Time.deltaTime;
