@@ -213,7 +213,7 @@ public class Persogem : MonoBehaviour
         meuTempoPulo += Time.deltaTime;
         if (meuTempoPulo > 0.5)
         {
-            pode_pular =true;
+            pode_pular = true;
             meuTempoPulo = 0;
         }
     }
