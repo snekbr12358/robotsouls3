@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class Portao : MonoBehaviour
 {
-    
 
-   
+    public int sceneIndex;
+
     void Start()
     {
         
@@ -23,7 +23,7 @@ public class Portao : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            SceneManager.LoadScene(7);
+            SceneManager.LoadScene(sceneIndex);
         }
     }
 

@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScenadeCS/AlavancaCS.unity
     guid: 4c5480a2854ab684a9ea864abc098969
+  - enabled: 1
+    path: Assets/Scenes/ScenadeCS/VitoriaCS.unity
+    guid: f2e835b2a5946b2489a5430ce9d4d7c8
   m_configObjects: {}

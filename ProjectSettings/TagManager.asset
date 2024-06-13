@@ -25,6 +25,7 @@ TagManager:
   - hpbarra03
   - Serra
   - Mira
+  - morte_imediata2
   layers:
   - Default
   - TransparentFX

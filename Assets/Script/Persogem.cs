@@ -196,7 +196,7 @@ public class Persogem : MonoBehaviour
                 vida--;
                 Perderhp();
                 pode_dano = false;
-                ImagemPersonagem.color = UnityEngine.Color.red;
+                //ImagemPersonagem.color = UnityEngine.Color.red;
                 meuTempoDano = 0;
                 animator.SetTrigger("Dano");
                 
@@ -280,6 +280,16 @@ public class Persogem : MonoBehaviour
         if(colisao.gameObject.tag == "morte_imediata")
         {
             if(pode_dano == true)
+            {
+                pode_dano = false;
+                vida = vida - 3;
+                Perderhp();
+                SceneManager.LoadScene(6);
+            }
+        }
+        if (colisao.gameObject.tag == "morte_imediata2")
+        {
+            if (pode_dano == true)
             {
                 pode_dano = false;
                 vida = vida - 3;
