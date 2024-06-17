@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.U2D;
 
 public class MiraSeguirPlayer : MonoBehaviour
 {
@@ -12,10 +13,9 @@ public class MiraSeguirPlayer : MonoBehaviour
 
     void Start()
     {
-      
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-         sprite = GetComponent<SpriteRenderer>();
-        
+        sprite = GetComponent<SpriteRenderer>();
+        sprite.color = Color.green;
         if (player != null)
         {
             playerTransform = player.transform;
@@ -31,9 +31,13 @@ public class MiraSeguirPlayer : MonoBehaviour
 
         if (playerTransform != null)
         {
-           
             transform.position = Vector3.Lerp(transform.position, new Vector3(playerTransform.position.x, playerTransform.position.y, transform.position.z), velocidade * Time.deltaTime);
         }
+
+        float t = contadorDano/delayDano;
+
+        sprite.color = Color.Lerp(Color.green, Color.red, t);
+
     }
     private void OnTriggerStay2D(Collider2D stay)
     {
@@ -43,7 +47,7 @@ public class MiraSeguirPlayer : MonoBehaviour
             contadorDano += Time.deltaTime;
             if (contadorDano > delayDano)
             {
-                
+                sprite.color = Color.green;
                 stay.GetComponent<Persogem>().ReceberDano(1); 
                 contadorDano = 0;
             }

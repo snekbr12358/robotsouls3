@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScenadeCS/VitoriaCS.unity
     guid: f2e835b2a5946b2489a5430ce9d4d7c8
+  - enabled: 1
+    path: Assets/Scenes/Fase1 1 Fuga.unity
+    guid: cba70d65f9d9e61479c9a739906973d2
   m_configObjects: {}

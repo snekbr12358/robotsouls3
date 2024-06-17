@@ -20,17 +20,24 @@ public class CutScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.anyKeyDown)
+        {
+           
+        }
         if (videoPlayer.isPaused)
         {
             videoPlayer.Stop();
-            if(Mira != null)
-            {
-                Mira.SetActive(true);
-            }            
+            
+
+        if(Mira != null)
+        {
+           Mira.SetActive(true);
+        }
+           Destroy(gameObject);
         }
     }
      private void OnTriggerEnter2D(Collider2D collision)
-    {
+     {
         if (collision.tag == "Player")
         {
             if (videoPlayer != null)
@@ -39,14 +46,11 @@ public class CutScene : MonoBehaviour
                 {
                     videoPlayer.Play();
                     Mira.SetActive(false);
-                }
-                else 
-                {
-                    Mira.SetActive(true);
+                    Time.timeScale = 0;
                 }
             }
         }
       
-    }
+     }
     
 }
