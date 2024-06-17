@@ -8,11 +8,13 @@ public class MiraSeguirPlayer : MonoBehaviour
     public float delayDano = 1.0f;
     public   float contadorDano;
 
+    SpriteRenderer sprite;
+
     void Start()
     {
       
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-
+         sprite = GetComponent<SpriteRenderer>();
         
         if (player != null)
         {

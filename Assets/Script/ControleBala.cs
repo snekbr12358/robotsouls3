@@ -63,7 +63,8 @@ public class ControleBala : MonoBehaviour
             Aranha aranha = colisao.gameObject.GetComponent<Aranha>();
             AranhaA aranhaa= colisao.gameObject.GetComponent<AranhaA>();
             VidaBoss VidaLamp = colisao.gameObject.GetComponent<VidaBoss>();
-            if(slime != null)
+            VidaBoss2 vidaboss2 = colisao.gameObject.GetComponent<VidaBoss2>();
+            if (slime != null)
             {
                 slime.LevarDano(dano);
             }
@@ -77,12 +78,15 @@ public class ControleBala : MonoBehaviour
             }
             else if (aranhaa != null)
             {
-                Debug.Log("dddd");
                 aranhaa.LevarDano(dano);
             }
             else if (VidaLamp != null)
             {
                 VidaLamp.LevarDano(dano);
+            }
+            else if (vidaboss2 != null) 
+            { 
+                vidaboss2.LevarDano(dano);
             }
             //ESTE OBJETO (BALA)
             //Destroy(this.gameObject);

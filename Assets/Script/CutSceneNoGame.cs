@@ -9,6 +9,8 @@ public class CutScene : MonoBehaviour
 
     CutsceneController cutsceneController;
 
+    public GameObject Mira;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,10 @@ public class CutScene : MonoBehaviour
         if (videoPlayer.isPaused)
         {
             videoPlayer.Stop();
+            if(Mira != null)
+            {
+                Mira.SetActive(true);
+            }            
         }
     }
      private void OnTriggerEnter2D(Collider2D collision)
@@ -32,6 +38,11 @@ public class CutScene : MonoBehaviour
                 if (!videoPlayer.isPlaying)
                 {
                     videoPlayer.Play();
+                    Mira.SetActive(false);
+                }
+                else 
+                {
+                    Mira.SetActive(true);
                 }
             }
         }

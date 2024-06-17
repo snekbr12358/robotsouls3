@@ -25,6 +25,7 @@ public class CutsceneController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         // Verifica se qualquer botão do teclado ou mouse foi pressionado
         if (Input.anyKeyDown)
         {
@@ -36,5 +37,6 @@ public class CutsceneController : MonoBehaviour
     {
         SceneManager.LoadScene(nextScene);
     }
+    
 
 }

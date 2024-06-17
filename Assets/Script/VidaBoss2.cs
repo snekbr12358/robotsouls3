@@ -6,13 +6,15 @@ public class VidaBoss2 : MonoBehaviour
 {
     bool morreu = false;
     public int vida = 50;
-    private SpriteRenderer ImagemLamp;
+    private SpriteRenderer ImagemVida;
+
+    Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        ImagemLamp = GetComponent<SpriteRenderer>();
-        if (!morreu);
+        ImagemVida = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -23,17 +25,17 @@ public class VidaBoss2 : MonoBehaviour
     public void LevarDano(int dano)
     {
         vida -= dano;
-        StartCoroutine("Vermelhinho");
         if (vida <= 0)
         {
-
+            StartCoroutine("Vermelhinho");
+            animator.SetBool("Morte", true);
         }
 
     }
     IEnumerator Vermelhinho()
     {
-        ImagemLamp.color = Color.red;
+        ImagemVida.color = Color.red;
         yield return new WaitForSeconds(0.5f);
-        ImagemLamp.color = Color.white;
+        ImagemVida.color = Color.white;
     }
 }

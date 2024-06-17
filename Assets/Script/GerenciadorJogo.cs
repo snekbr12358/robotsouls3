@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class GerenciadorJogo : MonoBehaviour
 {
 
+
+
     Vector2 checkpointPos;
     GameObject checkpointPrefab;
 
@@ -42,6 +44,7 @@ public class GerenciadorJogo : MonoBehaviour
         GameLigado = true;
         //Pausa Fisica do Jogo
         Time.timeScale = 1;
+
     }
 
     public void IniciarJogo()
@@ -145,6 +148,7 @@ public class GerenciadorJogo : MonoBehaviour
             }
         }
     }
+
 }
 
 

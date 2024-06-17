@@ -14,18 +14,17 @@ public class BrainBoss : MonoBehaviour
 
     public int vida = 50;
     
-    public VidaBoss lampada1;
-    public VidaBoss lampada2;
+    public VidaBoss2 Vida1;
+    public VidaBoss2 Vida2;
 
     public GameObject Mira;
+    public GameObject Brilho;
 
     // Start is called before the first frame update
     void Start()
     {
         ImagemBoss = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
-        
-
+        animator = GetComponent<Animator>();       
     }
 
     // Update is called once per frame
@@ -34,26 +33,29 @@ public class BrainBoss : MonoBehaviour
         
         if (!morreu)
         {      
-            VerificarVidaLampadas();
+            VerificarVida();
         }
     }
     
 
-    void VerificarVidaLampadas()
+    void VerificarVida()
     {
-        if (lampada1.vida <= 0 && lampada2.vida <= 0)
+        if (Vida1.vida <= 0 && Vida2.vida <= 0)
         {
-            morreu = true;
-            Destroy(gameObject, 1f);
-            animator.SetBool("Morte", true);
-            ImagemBoss.color = Color.white;
-            alavanca.DesativarEscudo();
-            Barreira.DesativarAposMorte();
 
+            morreu = true;
             if (Mira != null)
             {
                 Destroy(Mira);
+            }           
+            if (Brilho != null)
+            {
+                Destroy(Brilho, 1f);
             }
+            alavanca.DesativarEscudo();
+            ImagemBoss.color = Color.white;
+            
+           
         }
     }
 
