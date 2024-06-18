@@ -20,16 +20,20 @@ public class CutScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKeyDown)
-        {
-           
+        if (videoPlayer.isPlaying) { 
+            if (Input.anyKeyDown)
+            {
+                videoPlayer.Stop();
+                Time.timeScale = 1;
+            }
         }
+        
         if (videoPlayer.isPaused)
         {
             videoPlayer.Stop();
-            
+            Time.timeScale = 1;
 
-        if(Mira != null)
+            if (Mira != null)
         {
            Mira.SetActive(true);
         }
@@ -44,9 +48,9 @@ public class CutScene : MonoBehaviour
             {
                 if (!videoPlayer.isPlaying)
                 {
-                    videoPlayer.Play();
-                    Mira.SetActive(false);
                     Time.timeScale = 0;
+                    videoPlayer.Play();
+                    Mira.SetActive(false);                   
                 }
             }
         }

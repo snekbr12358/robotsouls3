@@ -284,7 +284,7 @@ public class Persogem : MonoBehaviour
                 pode_dano = false;
                 vida = vida - 3;
                 Perderhp();
-                SceneManager.LoadScene(6);
+                SceneManager.LoadScene(7);
             }
         }
         if (colisao.gameObject.tag == "morte_imediata2")
@@ -294,7 +294,7 @@ public class Persogem : MonoBehaviour
                 pode_dano = false;
                 vida = vida - 3;
                 Perderhp();
-                SceneManager.LoadScene(6);
+                SceneManager.LoadScene(7);
             }
         }
         if (colisao.gameObject.tag == "Canhao") 
@@ -415,7 +415,9 @@ public class Persogem : MonoBehaviour
     }
     void Reiniciar()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(7);
+
+
     }
     public void SaveGameState(int level)
     {

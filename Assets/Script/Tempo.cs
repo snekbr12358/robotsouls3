@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using TMPro;
+
 
 public class Tempo : MonoBehaviour
 {
@@ -23,6 +23,7 @@ public class Tempo : MonoBehaviour
         if (remainingTime > 0)
         {
             remainingTime -= Time.deltaTime;
+            
         }
         else if (remainingTime < 0)
         {
