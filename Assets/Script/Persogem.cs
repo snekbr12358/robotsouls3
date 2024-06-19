@@ -417,8 +417,8 @@ public class Persogem : MonoBehaviour
     }
     void Reiniciar()
     {
-        SceneManager.LoadScene(7);
         
+        SceneManager.LoadScene(7);
 
     }
     public void SaveGameState(int level)
@@ -450,6 +450,11 @@ public class Persogem : MonoBehaviour
         {
             return transform.position;
         }
+    }
+
+    private void OnApplicationQuit()
+    {
+        PlayerPrefs.DeleteAll();
     }
 
 }

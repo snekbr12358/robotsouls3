@@ -40,6 +40,7 @@ public class AlavancaController : MonoBehaviour
         if (videoPlayer.isPaused)
         {
             videoPlayer.Stop();
+            Time.timeScale = 1f;
         }
     }
     public void DesativarEscudo() 
@@ -72,6 +73,7 @@ public class AlavancaController : MonoBehaviour
                         if (!videoPlayer.isPlaying) 
                         { 
                             videoPlayer.Play();
+                            Time.timeScale = 0f;
                         }
                     }
                     if (lampadaAnimator != null)

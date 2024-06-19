@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class BrainBoss : MonoBehaviour
 {
@@ -20,20 +21,29 @@ public class BrainBoss : MonoBehaviour
     public GameObject Mira;
     public GameObject Brilho;
 
+    public VideoPlayer videoPlayer;
+
+    public GameObject EncontroBoss;
+
     // Start is called before the first frame update
     void Start()
     {
         ImagemBoss = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();       
+        animator = GetComponent<Animator>();
+        //videoPlayer = GetComponent<VideoPlayer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (videoPlayer.isPaused)
+        {
+            videoPlayer.Stop();
+            Time.timeScale = 1f;
+        }
         if (!morreu)
         {      
-            VerificarVida();
+          VerificarVida();
         }
     }
     
@@ -52,12 +62,20 @@ public class BrainBoss : MonoBehaviour
             {
                 Destroy(Brilho, 1f);
             }
+            if (!videoPlayer.isPlaying)
+            {
+                videoPlayer.Play();
+                Time.timeScale = 0f;
+            }           
             alavanca.DesativarEscudo();
             ImagemBoss.color = Color.white;
-            
-           
+            EncontroBoss.SetActive(false);
+
+
         }
     }
+   
+   
 
 
     //IEnumerator Vermelhinho()

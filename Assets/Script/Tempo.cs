@@ -9,17 +9,24 @@ public class Tempo : MonoBehaviour
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] float remainingTime;
 
+    
+    
+
+
+
     GerenciadorJogo GJ;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+
         if (remainingTime > 0)
         {
             remainingTime -= Time.deltaTime;

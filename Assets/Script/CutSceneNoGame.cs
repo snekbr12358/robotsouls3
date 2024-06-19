@@ -25,6 +25,7 @@ public class CutScene : MonoBehaviour
             {
                 videoPlayer.Stop();
                 Time.timeScale = 1;
+                Mira.SetActive(true);
             }
         }
         

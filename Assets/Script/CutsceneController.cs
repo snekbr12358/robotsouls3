@@ -1,14 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
+using static Cinemachine.DocumentationSortingAttribute;
 
 public class CutsceneController : MonoBehaviour
 {
     public VideoPlayer videoPlayer;
-    public int nextScene;
+    int nextScene;
 
     void Start()
     {
+        nextScene = PlayerPrefs.GetInt("CurrentLevel");
         videoPlayer.loopPointReached += EndReached;
     }
 
@@ -35,6 +37,7 @@ public class CutsceneController : MonoBehaviour
 
     void PulaCutScene()
     {
+        
         SceneManager.LoadScene(nextScene);
     }
     

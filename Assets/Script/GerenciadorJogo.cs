@@ -6,13 +6,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GerenciadorJogo : MonoBehaviour
 {
-
-
-
+  
     Vector2 checkpointPos;
     GameObject checkpointPrefab;
 
     public GameObject audioListener;
+    
 
     [SerializeField] CinemachineVirtualCamera vmCamMain;
 
@@ -28,9 +27,13 @@ public class GerenciadorJogo : MonoBehaviour
 
     [SerializeField] GameObject PrefabPersonagemComArma;
 
-    // Start is called before the first frame update
+
+
     void Start()
     {
+      
+
+
         checkpointPos = transform.position;
 
         Persogem persogem = FindObjectOfType<Persogem>();
@@ -47,6 +50,10 @@ public class GerenciadorJogo : MonoBehaviour
 
     }
 
+
+
+
+
     public void IniciarJogo()
     {
         SceneManager.LoadScene(0);
@@ -56,8 +63,11 @@ public class GerenciadorJogo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+       if (Input.GetKeyDown(KeyCode.Escape))
+       {
             PauseMenu();
+       }
+         
     }
 
     public bool EstadoDoJogo()
