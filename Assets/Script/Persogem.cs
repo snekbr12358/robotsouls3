@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static Cinemachine.DocumentationSortingAttribute;
 
 public class Persogem : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Persogem : MonoBehaviour
 
     [Header("MUDAR!")]
     public int currentLevelIndex;
+    public int DeathLevel; 
 
     public RuntimeAnimatorController animatorCanhaoPrefab;
 
@@ -416,7 +418,7 @@ public class Persogem : MonoBehaviour
     void Reiniciar()
     {
         SceneManager.LoadScene(7);
-
+        
 
     }
     public void SaveGameState(int level)
