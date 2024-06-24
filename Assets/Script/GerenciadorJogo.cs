@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class GerenciadorJogo : MonoBehaviour
 {
   
@@ -28,7 +29,12 @@ public class GerenciadorJogo : MonoBehaviour
     [SerializeField] GameObject PrefabPersonagemComArma;
 
 
+    void Awake()
+    {
+        DontDestroyOnLoad(this);
 
+
+    }
     void Start()
     {
       
@@ -122,7 +128,7 @@ public class GerenciadorJogo : MonoBehaviour
             pauseMenu.gameObject.SetActive(false);
             Time.timeScale = 1;
             GameLigado = true;
-            audioListener.SetActive(true);
+            audioListener.SetActive(true);            
         }
         else
         {
@@ -132,6 +138,7 @@ public class GerenciadorJogo : MonoBehaviour
             audioListener.SetActive(false);
         }
     }
+
     public void FecharPause()
     {
         SceneManager.LoadScene(0);
